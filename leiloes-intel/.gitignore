@@ -1,0 +1,7 @@
+cache/
+__pycache__/
+tmp_exports/
+# SQLite regenerável (56MB, acima do limite de aviso do GitHub).
+# Os entregáveis em data/exports/ são versionados; recrie o .sqlite com run_all.py.
+data/leiloes.sqlite
+data/leiloes.sqlite.gz

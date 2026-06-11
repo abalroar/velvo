@@ -1,0 +1,47 @@
+# Premissas econômicas e regras de decisão. Única fonte — o relatório imprime
+# este arquivo para garantir reprodutibilidade. Edite aqui, não no código.
+
+buyer_premium_pct: 0.05          # comissão do comprador (confirmado: TAXA_LEILOEIRO=5 no site)
+resale_channel_fee_pct: 0.0      # venda direta no Instagram (sem taxa de marketplace)
+
+# Frete/coleta por porte (R$). Faixa base usada no cenário central.
+shipping_brl:
+  small: 80
+  medium: 180
+  large: 350
+  xl: 600
+
+# Embalagem por porte (R$).
+packaging_brl:
+  small: 40
+  medium: 90
+  large: 200
+  xl: 350
+
+# Restauro por estado (R$).
+restoration_brl:
+  none: 0
+  light: 300
+  heavy: 1200
+
+# Estimativa de revenda no varejo (Instagram). A mediana de martelo de comps
+# internos é o preço de ATACADO de leilão; o varejo curado vende acima disso.
+# resale_base = mediana_martelo(comps) × retail_markup_over_hammer.
+resale:
+  min_comps: 5                       # nº mínimo de comps p/ confiança alta
+  retail_markup_over_hammer: 1.8     # prêmio de varejo sobre o martelo de comps
+  fallback_markup_over_hammer: 1.8   # se faltam comps: revenda ≈ 1,8× preço pago
+
+# Regras de sinal (custo all-in ≤ X% da revenda → margem ≥ 1-X)
+signals:
+  buy_now:
+    min_margin_pct: 0.40         # margem bruta ≥ 40% (custo all-in ≤ 60% da revenda)
+    max_logistics_size: large    # evita xl no BUY_NOW
+    min_attribution_for_designer_claim: STATED
+    max_bid_count: 8             # baixa competição relativa
+    min_confidence: 0.55
+  watch:
+    min_margin_pct: 0.25
+    min_confidence: 0.40
+
+capital_scenarios_brl: [30000, 50000]
