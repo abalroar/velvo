@@ -52,6 +52,19 @@ def load_lots() -> pd.DataFrame:
     dt_iso = pd.to_datetime(df["auction_datetime"], errors="coerce", format="ISO8601")
     df["auction_date"] = dt.fillna(dt_iso)
     df["preco_ref"] = df["hammer_price_brl"].fillna(df["current_bid_brl"])
+    # memória: categoriza colunas repetitivas e reduz numéricos (cabe no tier grátis)
+    for c in ["house_domain", "item_type_normalized", "macro_category", "size_class",
+              "designer", "attribution_strength", "material", "condition_tier",
+              "status", "uf", "signal"]:
+        if c in df.columns:
+            df[c] = df[c].astype("category")
+    for c in ["current_bid_brl", "opening_bid_brl", "hammer_price_brl", "preco_ref",
+              "est_resale_base", "est_gross_margin_pct", "max_bid_40pct", "confidence"]:
+        if c in df.columns:
+            df[c] = pd.to_numeric(df[c], downcast="float")
+    for c in ["bid_count", "sold"]:
+        if c in df.columns:
+            df[c] = pd.to_numeric(df[c], downcast="integer")
     return df
 
 
@@ -283,7 +296,7 @@ with tabs[2]:
     st.subheader("Liquidez × ticket por tipo de peça")
     st.caption("Cada bolha é um tipo de peça. Direita = vende mais (líquido). "
                "Cima = martelo mais alto (ticket). Tamanho = volume ofertado.")
-    g = fin.groupby("item_type_normalized").agg(
+    g = fin.groupby("item_type_normalized", observed=True).agg(
         ofertados=("lot_id", "count"), vendidos=("sold", "sum"),
         martelo_mediano=("hammer_price_brl", "median"),
         lances_medio=("bid_count", "mean")).reset_index()
@@ -319,13 +332,13 @@ with tabs[3]:
     if d.empty:
         st.info("Nenhuma venda com designer detectado no recorte.")
     else:
-        order = d.groupby("designer")["hammer_price_brl"].median().sort_values(ascending=False).index
+        order = d.groupby("designer", observed=True)["hammer_price_brl"].median().sort_values(ascending=False).index
         fig = px.box(d, x="designer", y="hammer_price_brl", color="designer",
                      category_orders={"designer": list(order)}, log_y=True, points="outliers",
                      labels={"hammer_price_brl": "martelo (R$, escala log)", "designer": ""})
         fig.update_layout(showlegend=False, height=520, xaxis_tickangle=-30)
         st.plotly_chart(fig, width="stretch")
-        resumo = d.groupby("designer").agg(
+        resumo = d.groupby("designer", observed=True).agg(
             vendas=("lot_id", "count"), mediana=("hammer_price_brl", "median"),
             minimo=("hammer_price_brl", "min"), maximo=("hammer_price_brl", "max"),
             lances_medio=("bid_count", "mean")).sort_values("mediana", ascending=False).reset_index()
@@ -345,7 +358,7 @@ with tabs[3]:
 # ============================================================================
 with tabs[4]:
     st.subheader("Onde comprar barato × quem vende bem")
-    h = fin.groupby("house_domain").agg(
+    h = fin.groupby("house_domain", observed=True).agg(
         finalizados=("lot_id", "count"), vendidos=("sold", "sum"),
         zero_bid=("bid_count", lambda s: (s == 0).mean()),
         martelo_medio=("hammer_price_brl", "mean")).reset_index()
@@ -418,7 +431,7 @@ with tabs[5]:
 # ============================================================================
 with tabs[6]:
     st.subheader("Onde estão os lotes (roteiro de garimpo)")
-    geo = f[f["uf"] != "?"].groupby("uf").agg(
+    geo = f[f["uf"] != "?"].groupby("uf", observed=True).agg(
         lotes=("lot_id", "count"),
         martelo_mediano=("hammer_price_brl", "median")).reset_index().sort_values("lotes", ascending=False)
     if geo.empty:
