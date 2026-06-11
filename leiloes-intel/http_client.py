@@ -1,12 +1,19 @@
-"""Cliente HTTP com rate limit global, cache em disco e retries.
+"""Cliente HTTP com rate limit POR DOMÍNIO, cache em disco e retries.
 
-Regras éticas: nunca burlar bloqueio — 403 persistente aborta a fase.
+Rate limit por domínio (não global): como a coleta cobre centenas de servidores
+independentes, basta manter um ritmo educado por servidor. Várias casas podem
+ser coletadas em paralelo sem sobrecarregar nenhum host individual. Backoff
+exponencial em 429/5xx recua automaticamente se algum servidor reclamar.
+
+Bloqueio (403) é respeitado: a casa que recusa o acesso é pulada, não burlada.
 Cache evita repetir qualquer request já feito (re-runs quase gratuitos).
 """
 import hashlib
 import json
+import threading
 import time
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
@@ -14,11 +21,17 @@ import config
 
 _session = requests.Session()
 _session.headers.update({"User-Agent": config.USER_AGENT})
-_last_request_at = 0.0
+adapter = requests.adapters.HTTPAdapter(pool_connections=64, pool_maxsize=64)
+_session.mount("https://", adapter)
+_session.mount("http://", adapter)
+
+# agendamento de próxima janela por domínio (thread-safe)
+_sched_lock = threading.Lock()
+_domain_next: dict[str, float] = {}
 
 
 class BlockedError(RuntimeError):
-    """403/CAPTCHA persistente: parar a coleta, não contornar."""
+    """403/CAPTCHA: a casa recusa o acesso. Pular e respeitar, não contornar."""
 
 
 def _cache_paths(url: str) -> tuple[Path, Path]:
@@ -26,9 +39,22 @@ def _cache_paths(url: str) -> tuple[Path, Path]:
     return config.CACHE_DIR / f"{h}.html", config.CACHE_DIR / f"{h}.meta.json"
 
 
+def _throttle(url: str):
+    """Reserva o próximo slot do domínio sob lock e dorme fora do lock.
+    Garante espaçamento >= PER_DOMAIN_DELAY por servidor, mesmo com threads."""
+    domain = urlparse(url).netloc.lower()
+    delay = config.PER_DOMAIN_DELAY
+    with _sched_lock:
+        now = time.monotonic()
+        start = max(now, _domain_next.get(domain, 0.0))
+        _domain_next[domain] = start + delay
+    wait = start - time.monotonic()
+    if wait > 0:
+        time.sleep(wait)
+
+
 def get(url: str, use_cache: bool = True, allow_redirects: bool = True) -> str:
-    """Retorna o corpo (texto) da URL, respeitando rate limit e cache."""
-    global _last_request_at
+    """Retorna o corpo (texto) da URL, respeitando rate limit por domínio e cache."""
     body_path, meta_path = _cache_paths(url)
     if use_cache and body_path.exists():
         return body_path.read_text(encoding="utf-8")
@@ -36,10 +62,7 @@ def get(url: str, use_cache: bool = True, allow_redirects: bool = True) -> str:
     config.CACHE_DIR.mkdir(parents=True, exist_ok=True)
     last_exc = None
     for attempt in range(config.MAX_RETRIES):
-        wait = config.RATE_LIMIT_SECONDS - (time.monotonic() - _last_request_at)
-        if wait > 0:
-            time.sleep(wait)
-        _last_request_at = time.monotonic()
+        _throttle(url)
         try:
             resp = _session.get(url, timeout=config.REQUEST_TIMEOUT,
                                 allow_redirects=allow_redirects)
@@ -48,7 +71,7 @@ def get(url: str, use_cache: bool = True, allow_redirects: bool = True) -> str:
             time.sleep(2 ** attempt)
             continue
         if resp.status_code == 403:
-            raise BlockedError(f"403 em {url} — coleta interrompida por respeito ao site")
+            raise BlockedError(f"403 em {url} — casa recusa o acesso; pulando")
         if resp.status_code == 429 or resp.status_code >= 500:
             time.sleep(5 * (attempt + 1))
             last_exc = RuntimeError(f"HTTP {resp.status_code} em {url}")

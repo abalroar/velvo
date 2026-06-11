@@ -13,7 +13,12 @@ DB_PATH = DATA_DIR / "leiloes.sqlite"
 
 BASE_URL = "https://www.leiloesbr.com.br"
 USER_AGENT = "baratex-market-research/0.1 (pesquisa de mercado; contato: matheusjprates@gmail.com)"
-RATE_LIMIT_SECONDS = 1.5
+# Rate limit POR DOMÍNIO: cada servidor individual vê no máx. 1 req a cada N s.
+# A velocidade global vem da paralelização entre casas (MAX_WORKERS), não de
+# acelerar um único host.
+PER_DOMAIN_DELAY = 1.0
+RATE_LIMIT_SECONDS = PER_DOMAIN_DELAY  # compat
+MAX_WORKERS = 8
 REQUEST_TIMEOUT = 40
 MAX_RETRIES = 3
 
