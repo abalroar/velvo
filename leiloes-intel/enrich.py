@@ -123,12 +123,12 @@ def enrich_all():
 
         conn.execute(
             """INSERT OR REPLACE INTO lot_enrichment
-               (house_domain, lot_id, item_type_normalized, size_class, designer,
-                attribution_strength, matched_keywords, matched_snippet, material,
+               (house_domain, lot_id, item_type_normalized, macro_category, size_class,
+                designer, attribution_strength, matched_keywords, matched_snippet, material,
                 period_hint, condition_tier, is_pair_or_set)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
-            (r["house_domain"], r["lot_id"], item_type, size, designer, attr,
-             ", ".join(matched), snippet, ", ".join(materials) or None,
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (r["house_domain"], r["lot_id"], item_type, config.macro_of(item_type), size,
+             designer, attr, ", ".join(matched), snippet, ", ".join(materials) or None,
              period, cond, 1 if pair else 0))
         # propaga flag sensível para lots
         if sensitive:

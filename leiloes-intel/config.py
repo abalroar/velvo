@@ -13,7 +13,12 @@ DB_PATH = DATA_DIR / "leiloes.sqlite"
 
 BASE_URL = "https://www.leiloesbr.com.br"
 USER_AGENT = "baratex-market-research/0.1 (pesquisa de mercado; contato: matheusjprates@gmail.com)"
-RATE_LIMIT_SECONDS = 1.5
+# Rate limit POR DOMÍNIO: cada servidor individual vê no máx. 1 req a cada N s.
+# A velocidade global vem da paralelização entre casas (MAX_WORKERS), não de
+# acelerar um único host.
+PER_DOMAIN_DELAY = 0.8
+RATE_LIMIT_SECONDS = PER_DOMAIN_DELAY  # compat
+MAX_WORKERS = 24
 REQUEST_TIMEOUT = 40
 MAX_RETRIES = 3
 
@@ -155,11 +160,52 @@ ITEM_TYPE_RULES = [
     ("quadro_pintura",        r"oleo sobre|ost\b|osm\b|acrilica sobre|tecnica mista|pintura|\btela\b", "medium"),
     ("gravura",               r"gravura|serigrafia|litografia|xilogravura|linoleo", "small"),
     ("fotografia",            r"fotografia", "small"),
+    # colecionáveis fora da tese (antes de prata/porcelana p/ ter prioridade de identidade)
+    ("moeda",                 r"\bmoeda\b|\bmoedas\b|numismatic|cunhada em", "small"),
+    ("cedula",                r"\bcedula\b|\bcedulas\b|papel moeda", "small"),
+    ("medalha",               r"\bmedalha|comenda|condecorac", "small"),
+    ("selo_filatelia",        r"\bselo\b|\bselos\b|filateli|carimbo postal|bloco postal|inteiro postal|sobrescrito", "small"),
+    ("joia",                  r"\bjoia\b|\banel\b|\baneis\b|brinco|\bcolar\b|pulseira|gargantilha|pingente|\bbroche\b|bracelete|alianca|berloque|ouro 18k|ouro 750|brilhante|diamante", "small"),
+    ("relogio",               r"\brelogio", "small"),
+    ("disco_vinil",           r"\bvinil\b|long play|\bcompacto\b|\blp\b", "small"),
+    ("livro",                 r"\blivro\b|\blivros\b|\bgibi\b|quadrinho|\brevista\b", "medium"),
+    ("brinquedo",             r"brinquedo|\bminiatura\b|action figure|\bboneca\b|\bboneco\b|autorama", "small"),
     ("porcelana_ceramica",    r"porcelana|ceramica|faianca|\blouca\b", "small"),
     ("cristal_vidro",         r"cristal|murano|\bvidro\b|baccarat|demi cristal|opalina", "small"),
     ("prata_metal",           r"\bprata\b|prata de lei|\bbronze\b|estanho|metal espessurado|casquinha", "small"),
     ("objeto_decorativo",     r"vaso|jarra|floreira|centro de mesa|enfeite|escultura de mesa|caixa decorativa", "small"),
-    ("livro_arte",            r"\blivro\b|catalogo de arte", "small"),
+    ("livro_arte",            r"catalogo de arte", "small"),
 ]
+
+# Família (macro-categoria) por item_type — permite incluir/excluir grupos
+# inteiros no dashboard (ex.: tirar Numismática/Filatelia da análise de móveis).
+MACRO_BY_TYPE = {
+    # Mobiliário
+    "cadeira": "Mobiliário", "par_de_cadeiras": "Mobiliário",
+    "conjunto_de_cadeiras": "Mobiliário", "poltrona": "Mobiliário",
+    "par_de_poltronas": "Mobiliário", "sofa": "Mobiliário", "banco": "Mobiliário",
+    "mesa_de_centro": "Mobiliário", "mesa_lateral": "Mobiliário",
+    "mesa_de_jantar": "Mobiliário", "mesa": "Mobiliário", "aparador": "Mobiliário",
+    "comoda": "Mobiliário", "estante": "Mobiliário", "armario": "Mobiliário",
+    "cama": "Mobiliário", "escrivaninha": "Mobiliário", "cristaleira": "Mobiliário",
+    "carrinho_de_cha": "Mobiliário",
+    # Arte
+    "quadro_pintura": "Arte", "gravura": "Arte", "escultura": "Arte", "fotografia": "Arte",
+    # Decoração
+    "luminaria_lustre": "Decoração", "espelho": "Decoração", "tapete": "Decoração",
+    "objeto_decorativo": "Decoração", "porcelana_ceramica": "Decoração",
+    "cristal_vidro": "Decoração", "prata_metal": "Decoração",
+    # Colecionáveis (fora da tese de móveis/arte/decoração)
+    "moeda": "Numismática", "cedula": "Numismática", "medalha": "Numismática",
+    "selo_filatelia": "Filatelia", "joia": "Joias", "relogio": "Relógios",
+    "disco_vinil": "Discos", "livro": "Livros", "livro_arte": "Livros",
+    "brinquedo": "Brinquedos",
+    "outro": "Outro",
+}
+
+
+def macro_of(item_type: str) -> str:
+    return MACRO_BY_TYPE.get(item_type, "Outro")
+
 
 # Casas: porte do frete por size_class (premissas em assumptions.yaml)
