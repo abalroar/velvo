@@ -23,6 +23,17 @@ pip install -r requirements.txt
 python run_all.py                 # pipeline completo
 python run_all.py --skip-scrape   # só re-processa dados já coletados
 ```
+
+## Dashboard (deep dive)
+```bash
+streamlit run app.py
+```
+Lê os CSVs versionados em `data/exports/` (não exige re-scrape nem o SQLite).
+Abas: Tendências (GMV/sell-through diário), Categorias (liquidez × ticket),
+Casas (sourcing × benchmark), Designers (martelo real por venda), Preços &
+competição, Oportunidades (BUY_NOW/WATCH/AVOID com link por lote) e Explorador
+com download do recorte filtrado. Filtros globais por status, tipo, designer,
+UF, casa, preço e busca textual.
 Ou por fase:
 ```bash
 python scrape_listings.py         # lances ao vivo por categoria
