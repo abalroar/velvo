@@ -38,7 +38,7 @@ def export_csvs(conn):
                FROM auctions a LEFT JOIN auction_houses h USING(house_domain)
                ORDER BY a.auction_datetime DESC""").to_csv(E / "auctions.csv", index=False)
 
-    q(conn, """SELECT l.house_domain, l.lot_id, l.auction_id, l.title, l.uf,
+    lots_df = q(conn, """SELECT l.house_domain, l.lot_id, l.auction_id, l.title, l.uf,
                       l.auction_datetime, l.lot_url, l.thumbnail_url, l.excluded_sensitive,
                       e.item_type_normalized, e.size_class, e.designer, e.attribution_strength,
                       e.material, e.period_hint, e.condition_tier, e.is_pair_or_set,
@@ -52,7 +52,20 @@ def export_csvs(conn):
                LEFT JOIN lot_snapshots s ON s.house_domain=l.house_domain AND s.lot_id=l.lot_id
                     AND s.scraped_at=(SELECT MAX(scraped_at) FROM lot_snapshots s2
                                       WHERE s2.house_domain=l.house_domain AND s2.lot_id=l.lot_id)
-               """).to_csv(E / "lots.csv", index=False)
+               """)
+    lots_df.to_csv(E / "lots.csv", index=False)
+    # Parquet enxuto p/ o dashboard (lê rápido, cabe no git; o CSV gigante fica fora)
+    dash_cols = ["house_domain", "lot_id", "title", "uf", "lot_url", "auction_datetime",
+                 "item_type_normalized", "size_class", "designer", "attribution_strength",
+                 "material", "condition_tier", "status", "current_bid_brl", "opening_bid_brl",
+                 "hammer_price_brl", "bid_count", "sold", "excluded_sensitive",
+                 "est_resale_base", "est_gross_margin_pct", "max_bid_40pct", "confidence",
+                 "signal", "signal_reasons"]
+    try:
+        lots_df[[c for c in dash_cols if c in lots_df.columns]].to_parquet(
+            E / "lots.parquet", index=False, compression="zstd")
+    except Exception as exc:
+        print(f"  (parquet não gerado: {exc})")
 
     house_m = house_metrics(conn)
     house_m.to_csv(E / "auction_house_metrics.csv", index=False)

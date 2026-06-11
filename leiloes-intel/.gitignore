@@ -7,3 +7,6 @@ data/leiloes.sqlite
 data/leiloes.sqlite.gz
 data/leiloes.sqlite-shm
 data/leiloes.sqlite-wal
+
+# CSV gigante de lotes (64MB) — o dashboard usa lots.parquet (8MB)
+data/exports/lots.csv
