@@ -43,6 +43,9 @@ def load_lots() -> pd.DataFrame:
     df = df[df["excluded_sensitive"] != 1].copy()
     df["designer"] = df["designer"].fillna("—")
     df["item_type_normalized"] = df["item_type_normalized"].fillna("outro")
+    if "macro_category" not in df.columns:
+        df["macro_category"] = "Outro"
+    df["macro_category"] = df["macro_category"].fillna("Outro")
     df["uf"] = df["uf"].fillna("?")
     df["signal"] = df["signal"].fillna("—")
     dt = pd.to_datetime(df["auction_datetime"], format="%d/%m/%Y", errors="coerce")
@@ -114,7 +117,22 @@ periodo = sb.selectbox("Período (data do pregão)", periodo_opts, index=0,
                        help="Filtra pela data de encerramento. Lotes 'em andamento' "
                             "(sem data passada) só aparecem quando 'Tudo' está selecionado.")
 
-tipos = sorted(lots["item_type_normalized"].unique())
+# Família (macro): permite excluir grupos inteiros, ex.: Numismática/Filatelia
+fam_opts = sorted(lots["macro_category"].unique())
+TESE = ["Mobiliário", "Arte", "Decoração"]
+fam_default = [m for m in TESE if m in fam_opts]
+fam_modo = sb.radio("Família", ["Foco na tese (móveis/arte/decoração)",
+                                "Tudo", "Escolher manualmente"], index=0,
+                    help="A tese exclui numismática, filatelia, joias, livros etc. "
+                         "Escolha 'Tudo' ou 'Manualmente' para incluir esses grupos.")
+if fam_modo == "Foco na tese (móveis/arte/decoração)":
+    fam_sel = fam_default
+elif fam_modo == "Tudo":
+    fam_sel = fam_opts
+else:
+    fam_sel = sb.multiselect("Famílias incluídas", fam_opts, default=fam_default)
+
+tipos = sorted(lots[lots["macro_category"].isin(fam_sel)]["item_type_normalized"].unique())
 tipo_sel = sb.multiselect("Tipo de peça", tipos, default=[], format_func=nice)
 designers = sorted(d for d in lots["designer"].unique() if d != "—")
 designer_sel = sb.multiselect("Designer/autor", designers, default=[])
@@ -125,7 +143,7 @@ casa_sel = sb.multiselect("Casa de leilão", casas, default=[])
 preco_max = sb.number_input("Preço máx. (R$, 0 = sem limite)", min_value=0, value=0, step=100)
 busca = sb.text_input("Busca no título", "", placeholder="jacarandá, Tenreiro, palhinha…")
 
-f = lots[lots["status"].isin(status_sel)].copy()
+f = lots[lots["status"].isin(status_sel) & lots["macro_category"].isin(fam_sel)].copy()
 
 # aplica o recorte temporal (âncora = hoje)
 hoje = pd.Timestamp.today().normalize()

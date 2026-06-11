@@ -26,7 +26,8 @@ Convenção: **OBSERVED** = extraído diretamente das páginas públicas do site
 | bid_count | OBSERVED | nº de lances |
 | sold | OBSERVED | 1 se "Lote vendido" |
 | excluded_sensitive | INFERRED | 1 se menciona categoria sensível (fora das métricas) |
-| item_type_normalized | INFERRED | classe normalizada (cadeira, poltrona, mesa_de_centro...) |
+| item_type_normalized | INFERRED | classe normalizada (cadeira, poltrona, mesa_de_centro, moeda, joia...) |
+| macro_category | INFERRED | família: Mobiliário, Arte, Decoração, Numismática, Filatelia, Joias, Relógios, Discos, Livros, Brinquedos, Outro |
 | size_class | INFERRED | small/medium/large/xl → bracket de frete |
 | designer | INFERRED | designer/autor detectado por keyword |
 | attribution_strength | INFERRED | DOCUMENTED>STATED>ATTRIBUTED>STYLE_OF>MATERIAL_HINT>NONE |

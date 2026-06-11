@@ -69,6 +69,7 @@ CREATE TABLE IF NOT EXISTS lot_enrichment (
   house_domain TEXT NOT NULL,
   lot_id TEXT NOT NULL,
   item_type_normalized TEXT,
+  macro_category TEXT,
   size_class TEXT,
   designer TEXT,
   attribution_strength TEXT,
@@ -118,4 +119,14 @@ def connect() -> sqlite3.Connection:
     conn.execute("PRAGMA busy_timeout=60000")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.executescript(SCHEMA)
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn):
+    """Adiciona colunas novas em bancos já existentes (SQLite não tem
+    ADD COLUMN IF NOT EXISTS)."""
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(lot_enrichment)")}
+    if "macro_category" not in cols:
+        conn.execute("ALTER TABLE lot_enrichment ADD COLUMN macro_category TEXT")
+        conn.commit()

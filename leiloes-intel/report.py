@@ -40,7 +40,7 @@ def export_csvs(conn):
 
     lots_df = q(conn, """SELECT l.house_domain, l.lot_id, l.auction_id, l.title, l.uf,
                       l.auction_datetime, l.lot_url, l.thumbnail_url, l.excluded_sensitive,
-                      e.item_type_normalized, e.size_class, e.designer, e.attribution_strength,
+                      e.item_type_normalized, e.macro_category, e.size_class, e.designer, e.attribution_strength,
                       e.material, e.period_hint, e.condition_tier, e.is_pair_or_set,
                       e.matched_keywords,
                       s.status, s.current_bid_brl, s.opening_bid_brl, s.hammer_price_brl,
@@ -56,7 +56,7 @@ def export_csvs(conn):
     lots_df.to_csv(E / "lots.csv", index=False)
     # Parquet enxuto p/ o dashboard (lê rápido, cabe no git; o CSV gigante fica fora)
     dash_cols = ["house_domain", "lot_id", "title", "uf", "lot_url", "auction_datetime",
-                 "item_type_normalized", "size_class", "designer", "attribution_strength",
+                 "item_type_normalized", "macro_category", "size_class", "designer", "attribution_strength",
                  "material", "condition_tier", "status", "current_bid_brl", "opening_bid_brl",
                  "hammer_price_brl", "bid_count", "sold", "excluded_sensitive",
                  "est_resale_base", "est_gross_margin_pct", "max_bid_40pct", "confidence",
@@ -370,7 +370,8 @@ Convenção: **OBSERVED** = extraído diretamente das páginas públicas do site
 | bid_count | OBSERVED | nº de lances |
 | sold | OBSERVED | 1 se "Lote vendido" |
 | excluded_sensitive | INFERRED | 1 se menciona categoria sensível (fora das métricas) |
-| item_type_normalized | INFERRED | classe normalizada (cadeira, poltrona, mesa_de_centro...) |
+| item_type_normalized | INFERRED | classe normalizada (cadeira, poltrona, mesa_de_centro, moeda, joia...) |
+| macro_category | INFERRED | família: Mobiliário, Arte, Decoração, Numismática, Filatelia, Joias, Relógios, Discos, Livros, Brinquedos, Outro |
 | size_class | INFERRED | small/medium/large/xl → bracket de frete |
 | designer | INFERRED | designer/autor detectado por keyword |
 | attribution_strength | INFERRED | DOCUMENTED>STATED>ATTRIBUTED>STYLE_OF>MATERIAL_HINT>NONE |
