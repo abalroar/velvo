@@ -5,3 +5,5 @@ tmp_exports/
 # Os entregáveis em data/exports/ são versionados; recrie o .sqlite com run_all.py.
 data/leiloes.sqlite
 data/leiloes.sqlite.gz
+data/leiloes.sqlite-shm
+data/leiloes.sqlite-wal
