@@ -182,6 +182,20 @@ def write_report(conn, house_m, cat_m, opp, avoid):
     p30, s30 = portfolio(opp, 30000, A["buyer_premium_pct"])
     p50, s50 = portfolio(opp, 50000, A["buyer_premium_pct"])
 
+    # janela observada dos finalizados (datas em D/M/AAAA ou ISO)
+    fin_dates = pd.to_datetime(
+        pd.read_sql_query(
+            """SELECT DISTINCT l.auction_datetime d FROM lots l
+               JOIN lot_snapshots s ON s.house_domain=l.house_domain AND s.lot_id=l.lot_id
+               WHERE s.status='finalizado' AND l.auction_datetime IS NOT NULL""", conn)["d"],
+        format="%d/%m/%Y", errors="coerce").dropna()
+    if len(fin_dates):
+        window_txt = (f"{fin_dates.min().strftime('%d/%m/%Y')} a "
+                      f"{fin_dates.max().strftime('%d/%m/%Y')} "
+                      f"({(fin_dates.max() - fin_dates.min()).days + 1} dias)")
+    else:
+        window_txt = "janela não determinada"
+
     L = []
     L.append("# Relatório de Inteligência de Mercado — LeilõesBR\n")
     L.append(f"_Gerado em {now}. Coleta de páginas públicas, sem login, com rate limit._\n")
@@ -192,7 +206,8 @@ def write_report(conn, house_m, cat_m, opp, avoid):
     L.append(f"- **Casas/leiloeiros mapeados:** {n_houses}")
     L.append(f"- **Lotes vendidos com martelo observado:** {intbr(n_sold)}"
              f" → **sell-through global {pctbr(overall_st)}**")
-    L.append("- **Fonte de preço:** martelo REAL de leilões finalizados (últimos ~15 dias), "
+    L.append(f"- **Janela de finalizados observada:** {window_txt}.")
+    L.append("- **Fonte de preço:** martelo REAL de leilões finalizados, "
              "não proxy. Lances ao vivo da busca por categoria.\n")
 
     L.append("> **Observed vs inferred.** Martelo, lance, nº de lances e status de venda são "
@@ -282,7 +297,7 @@ def write_report(conn, house_m, cat_m, opp, avoid):
     take = 0.15
     gmv_potential = (cat_m["martelo_mediano"].fillna(0) * cat_m["vendidos"].fillna(0)).sum()
     L.append(f"- **GMV observado** nas casas amostradas (martelo × vendidos): ~{brl(gmv_potential)} "
-             "em ~15 dias — denso e pulverizado entre muitas casas.")
+             f"na janela de {window_txt} — denso e pulverizado entre muitas casas.")
     L.append(f"- **Modelo A** com take de {pctbr(take)}: para cobrir OPEX de R$ 10.000 / 15.000 / 25.000 ao mês, "
              f"a casa precisaria de GMV mensal de ~{brl(10000/take)} / {brl(15000/take)} / {brl(25000/take)} "
              "respectivamente. Exige curadoria, captação de consignação e base de compradores — "
@@ -296,7 +311,7 @@ def write_report(conn, house_m, cat_m, opp, avoid):
              " e houver fluxo de consignação — aí o take fixo da casa passa a compensar o OPEX.\n")
 
     L.append("## 11. Limitações e vieses\n")
-    L.append("- Janela de finalizados ≈ últimos 15 dias (rotativa do site); sazonalidade não capturada.")
+    L.append(f"- Janela de finalizados observada: {window_txt}; sazonalidade anual não capturada.")
     L.append("- Algumas casas usam plataforma distinta (≈10% de falhas 404/JSON) e ficam fora da amostra.")
     L.append("- Lotes ao vivo têm só título (descrição completa não disponível sem por-leilão); "
              "atribuição de designer pode ter falso-negativo quando o nome só aparece na descrição.")
