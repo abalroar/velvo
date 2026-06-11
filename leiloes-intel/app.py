@@ -102,6 +102,18 @@ status_sel = sb.multiselect("Situação", status_opts, default=status_opts,
                             help="finalizado = já vendido/encerrado (tem martelo). "
                                  "andamento = aberto para lance agora.")
 
+# --- recorte temporal (baseado na data do pregão dos finalizados) ---
+_dates = lots["auction_date"].dropna()
+DATA_MAX = _dates.max() if len(_dates) else pd.Timestamp.today()
+DATA_MIN = _dates.min() if len(_dates) else DATA_MAX
+anos = sorted({int(a) for a in _dates.dt.year.unique()}, reverse=True) if len(_dates) else []
+periodo_opts = (["Tudo", "YTD (ano corrente)", "Últimos 2 meses",
+                 "Últimos 6 meses", "Últimos 12 meses", "Últimos 24 meses"]
+                + [f"Ano {a}" for a in anos])
+periodo = sb.selectbox("Período (data do pregão)", periodo_opts, index=0,
+                       help="Filtra pela data de encerramento. Lotes 'em andamento' "
+                            "(sem data passada) só aparecem quando 'Tudo' está selecionado.")
+
 tipos = sorted(lots["item_type_normalized"].unique())
 tipo_sel = sb.multiselect("Tipo de peça", tipos, default=[], format_func=nice)
 designers = sorted(d for d in lots["designer"].unique() if d != "—")
@@ -114,6 +126,20 @@ preco_max = sb.number_input("Preço máx. (R$, 0 = sem limite)", min_value=0, va
 busca = sb.text_input("Busca no título", "", placeholder="jacarandá, Tenreiro, palhinha…")
 
 f = lots[lots["status"].isin(status_sel)].copy()
+
+# aplica o recorte temporal (âncora = hoje)
+hoje = pd.Timestamp.today().normalize()
+if periodo != "Tudo":
+    d = f["auction_date"]
+    if periodo == "YTD (ano corrente)":
+        f = f[d >= pd.Timestamp(hoje.year, 1, 1)]
+    elif periodo.startswith("Últimos"):
+        meses = int(periodo.split()[1])
+        f = f[d >= hoje - pd.DateOffset(months=meses)]
+    elif periodo.startswith("Ano "):
+        ano = int(periodo.split()[1])
+        f = f[d.dt.year == ano]
+
 if tipo_sel:
     f = f[f["item_type_normalized"].isin(tipo_sel)]
 if designer_sel:
@@ -129,7 +155,10 @@ if busca.strip():
 
 sb.markdown("---")
 sb.metric("Lotes no recorte", intbr(len(f)))
-sb.caption("Dica: combine filtros (ex.: tipo = Poltrona + UF = SP) e veja as abas mudarem.")
+_fd = f["auction_date"].dropna()
+if len(_fd):
+    sb.caption(f"📅 Período no recorte: {_fd.min():%d/%m/%Y} – {_fd.max():%d/%m/%Y}")
+sb.caption("Dica: combine filtros (ex.: tipo = Poltrona + período = Últimos 6 meses).")
 
 fin = f[f["status"] == "finalizado"]
 soldf = fin[fin["sold"] == 1]
