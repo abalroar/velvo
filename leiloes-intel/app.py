@@ -40,7 +40,7 @@ st.markdown("""
 def load_lots() -> pd.DataFrame:
     pq = EXPORTS / "lots.parquet"
     df = pd.read_parquet(pq) if pq.exists() else pd.read_csv(EXPORTS / "lots.csv", low_memory=False)
-    df = df[df["excluded_sensitive"] != 1].copy()
+    df = df[df["excluded_sensitive"] != 1].drop(columns=["excluded_sensitive"])
     df["designer"] = df["designer"].fillna("—")
     df["item_type_normalized"] = df["item_type_normalized"].fillna("outro")
     if "macro_category" not in df.columns:
@@ -51,6 +51,7 @@ def load_lots() -> pd.DataFrame:
     dt = pd.to_datetime(df["auction_datetime"], format="%d/%m/%Y", errors="coerce")
     dt_iso = pd.to_datetime(df["auction_datetime"], errors="coerce", format="ISO8601")
     df["auction_date"] = dt.fillna(dt_iso)
+    df = df.drop(columns=["auction_datetime"])
     df["preco_ref"] = df["hammer_price_brl"].fillna(df["current_bid_brl"])
     # memória: categoriza colunas repetitivas e reduz numéricos (cabe no tier grátis)
     for c in ["house_domain", "item_type_normalized", "macro_category", "size_class",
@@ -97,6 +98,14 @@ ITEM_LABELS = {
 
 def nice(it):
     return ITEM_LABELS.get(it, it.replace("_", " ").capitalize())
+
+
+def with_lot_url(d: pd.DataFrame) -> pd.DataFrame:
+    """Reconstrói lot_url só no subconjunto exibido (evita 1,2M strings em RAM)."""
+    d = d.copy()
+    d["lot_url"] = ("https://" + d["house_domain"].astype(str)
+                    + "/peca.asp?Id=" + d["lot_id"].astype(str))
+    return d
 
 
 # ----------------------------------------------------------------------------
@@ -455,7 +464,7 @@ with tabs[7]:
         "est_gross_margin_pct", ascending=False)
     st.markdown(f"**{len(o)} lotes** com sinal `{sig}` no recorte.")
     if not o.empty:
-        show = o[["title", "item_type_normalized", "designer", "attribution_strength",
+        show = with_lot_url(o)[["title", "item_type_normalized", "designer", "attribution_strength",
                   "current_bid_brl", "bid_count", "est_resale_base", "est_gross_margin_pct",
                   "max_bid_40pct", "uf", "house_domain", "lot_url"]].copy()
         show["item_type_normalized"] = show["item_type_normalized"].map(nice)
@@ -482,7 +491,7 @@ with tabs[8]:
     n = st.slider("Linhas", 50, 3000, 400, step=50)
     cols = ["status", "title", "item_type_normalized", "designer", "preco_ref",
             "bid_count", "sold", "uf", "house_domain", "auction_date", "lot_url"]
-    view = f[cols].head(n).copy()
+    view = with_lot_url(f.head(n))[cols].copy()
     view["item_type_normalized"] = view["item_type_normalized"].map(nice)
     st.dataframe(view, width="stretch", hide_index=True, column_config={
         "lot_url": st.column_config.LinkColumn("lote", display_text="abrir ↗"),
