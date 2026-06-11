@@ -29,8 +29,8 @@ import db
 import http_client
 from scrape_finalizados import fetch_lots, store_auction_lots
 
-# domínios de terceiros, alguns mortos/lentos: timeout/retries curtos
-config.REQUEST_TIMEOUT = 15
+# domínios de terceiros, alguns mortos/lentos: timeout/retries curtos p/ falhar rápido
+config.REQUEST_TIMEOUT = 8
 config.MAX_RETRIES = 2
 
 PAGE_LIMIT = 100
