@@ -164,6 +164,12 @@ casas = sorted(lots["house_domain"].dropna().unique())
 casa_sel = sb.multiselect("Casa de leilão", casas, default=[])
 preco_max = sb.number_input("Preço máx. (R$, 0 = sem limite)", min_value=0, value=0, step=100)
 busca = sb.text_input("Busca no título", "", placeholder="jacarandá, Tenreiro, palhinha…")
+sb.markdown("---")
+usar_log = sb.checkbox("Escala logarítmica nos gráficos de preço", value=False,
+                       help="Linear (padrão): distâncias proporcionais ao R$ — bom para "
+                            "comparar valores. Log: comprime os caros e abre os baratos — "
+                            "bom quando há itens de R$ 50 e de R$ 50.000 no mesmo gráfico.")
+ESC = "escala log" if usar_log else "R$"
 
 f = lots[lots["status"].isin(status_sel) & lots["macro_category"].isin(fam_sel)].copy()
 
@@ -316,10 +322,10 @@ with tabs[2]:
         st.info("Volume insuficiente no recorte.")
     else:
         fig = px.scatter(g, x="sell_through", y="martelo_mediano", size="ofertados",
-                         text="Tipo", color="martelo_mediano", log_y=True,
+                         text="Tipo", color="martelo_mediano", log_y=usar_log,
                          color_continuous_scale="Viridis", size_max=55,
                          labels={"sell_through": "sell-through",
-                                 "martelo_mediano": "martelo mediano (R$, escala log)"})
+                                 "martelo_mediano": f"martelo mediano ({ESC})"})
         fig.update_traces(textposition="top center")
         fig.update_layout(xaxis_tickformat=".0%", coloraxis_showscale=False, height=560)
         st.plotly_chart(fig, width="stretch")
@@ -343,8 +349,8 @@ with tabs[3]:
     else:
         order = d.groupby("designer", observed=True)["hammer_price_brl"].median().sort_values(ascending=False).index
         fig = px.box(d, x="designer", y="hammer_price_brl", color="designer",
-                     category_orders={"designer": list(order)}, log_y=True, points="outliers",
-                     labels={"hammer_price_brl": "martelo (R$, escala log)", "designer": ""})
+                     category_orders={"designer": list(order)}, log_y=usar_log, points="outliers",
+                     labels={"hammer_price_brl": f"martelo ({ESC})", "designer": ""})
         fig.update_layout(showlegend=False, height=520, xaxis_tickangle=-30)
         st.plotly_chart(fig, width="stretch")
         resumo = d.groupby("designer", observed=True).agg(
@@ -430,8 +436,9 @@ with tabs[5]:
             m[2].metric("Martelo p25 / p75",
                         f"{brl(soldf['hammer_price_brl'].quantile(.25))} / "
                         f"{brl(soldf['hammer_price_brl'].quantile(.75))}")
-            st.plotly_chart(px.histogram(soldf, x="hammer_price_brl", nbins=60, log_y=True,
-                                         title="Distribuição de preço de martelo (Y log)",
+            st.plotly_chart(px.histogram(soldf, x="hammer_price_brl", nbins=60, log_y=usar_log,
+                                         title="Distribuição de preço de martelo"
+                                               + (" (Y log)" if usar_log else ""),
                                          labels={"hammer_price_brl": "martelo (R$)"})
                             .update_layout(showlegend=False), width="stretch")
 
