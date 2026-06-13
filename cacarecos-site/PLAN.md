@@ -1,4 +1,11 @@
-# Plano — Site curado estilo Antônio (projeto "cacarecos")
+# Anexo A — Site curado estilo Antônio (projeto "cacarecos")
+
+> Este documento é o **anexo técnico** do plano de negócios completo —
+> ver [`PLANO_DE_NEGOCIOS.md`](./PLANO_DE_NEGOCIOS.md) para o racional (motivação pessoal,
+> conversas com Thaverton e Clara, investigação `leiloes-intel`, validação via Antônio e a
+> tese de negócio). Aqui ficam os detalhes técnicos do produto: reverse-engineering do
+> antoniooo.com + arquitetura para construir do zero um site com UI impecável no mesmo
+> espírito, mas com a nossa vantagem de dados de mercado.
 
 _Etapa de planejamento. Reverse-engineering do antoniooo.com + arquitetura para
 construir do zero um site com UI impecável no mesmo espírito, mas com a nossa
