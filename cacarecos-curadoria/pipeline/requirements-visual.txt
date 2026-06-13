@@ -1,0 +1,6 @@
+# Dependências do estágio 1 (similaridade visual com CLIP). Pesadas (~torch).
+# O estágio 0 + economia roda só com a stdlib; instale isto apenas no cron.
+numpy>=1.26
+pillow>=10.0
+open_clip_torch>=2.24
+torch>=2.2

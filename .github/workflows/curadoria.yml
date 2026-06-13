@@ -1,0 +1,65 @@
+name: Curadoria — renova a fila
+
+# Roda sozinho de tempos em tempos e renova a fila que a curadora consome no site.
+# Também dá para disparar manualmente (Actions -> Run workflow).
+on:
+  schedule:
+    - cron: "0 */4 * * *"   # a cada 4 horas
+  workflow_dispatch:
+    inputs:
+      visual:
+        description: "Rodar estágio 1 (CLIP, mais lento)?"
+        type: boolean
+        default: false
+
+concurrency:
+  group: curadoria
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instala dependências
+        run: |
+          pip install -r leiloes-intel/requirements.txt
+          if [ "${{ inputs.visual }}" = "true" ]; then
+            pip install -r cacarecos-curadoria/pipeline/requirements-visual.txt
+          fi
+
+      - name: Reconstrói o cache de HTTP do leiloes-intel
+        run: |
+          cd leiloes-intel/data/checkpoint
+          cat cache.tar.gz.part* > cache.tar.gz
+          mkdir -p ../../cache
+          tar xzf cache.tar.gz -C ../../ || true
+
+      - name: Atualiza os lotes AO VIVO (lances frescos) + enriquece
+        working-directory: leiloes-intel
+        run: |
+          python scrape_listings.py        # busca_andamento por categoria (ao vivo)
+          python enrich.py                  # classificação semântica determinística
+
+      - name: Roda o funil e faz upsert da fila no Supabase
+        working-directory: cacarecos-curadoria/pipeline
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          FLAGS="--db ../../leiloes-intel/data/leiloes.sqlite"
+          if [ "${{ inputs.visual }}" != "true" ]; then FLAGS="$FLAGS --no-visual"; fi
+          python run_pipeline.py $FLAGS
+
+# Pré-requisitos (uma vez):
+#   Settings -> Secrets and variables -> Actions:
+#     SUPABASE_URL          = https://SEU-PROJETO.supabase.co
+#     SUPABASE_SERVICE_KEY  = service_role key do Supabase (NUNCA a anon)
+# A primeira execução deve ser manual (workflow_dispatch) para validar a etapa
+# de atualização de lotes ao vivo do leiloes-intel no ambiente do CI.
