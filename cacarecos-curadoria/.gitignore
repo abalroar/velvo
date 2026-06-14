@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# sqlite reconstruído localmente (regenerável; não versionar)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+# o seed semanal É versionado (entregável); não ignorar supabase/seed_weekly.sql
