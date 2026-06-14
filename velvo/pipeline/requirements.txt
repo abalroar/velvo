@@ -1,0 +1,8 @@
+# pipeline da curadoria semanal.
+# run_weekly.py lê o sqlite cheio só com a stdlib (sqlite3).
+# pyarrow só é necessário para o fallback parquet; bs4/lxml para recuperar
+# thumbnails do cache http quando não há sqlite.
+pyarrow>=15.0
+beautifulsoup4>=4.12
+lxml>=5.0
+# push_weekly.py usa urllib da stdlib; nenhuma dependência extra.
