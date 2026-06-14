@@ -5,7 +5,7 @@ uso:
   SUPABASE_URL=https://xxxx.supabase.co \
   SUPABASE_SERVICE_ROLE_KEY=eyJ... \
   python pipeline/push_weekly.py \
-      --db /home/user/baratex/leiloes-intel/data/leiloes.sqlite
+      --db ../leiloes-intel/data/leiloes.sqlite
 
 faz upsert em curation_candidates (on conflict candidate_id), arquiva os
 candidatos queued de rodadas anteriores e nunca toca em curator_decisions.
@@ -20,6 +20,7 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+DEFAULT_INTEL = os.path.abspath(os.path.join(HERE, "..", "..", "leiloes-intel"))
 
 import weekly  # noqa: E402
 
@@ -42,7 +43,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", help="caminho do leiloes.sqlite (fonte preferida)")
     ap.add_argument("--parquet")
-    ap.add_argument("--intel", default="/home/user/baratex/leiloes-intel")
+    ap.add_argument("--intel", default=DEFAULT_INTEL)
     ap.add_argument("--limit", type=int, default=600)
     ap.add_argument("--batch")
     ap.add_argument("--chunk", type=int, default=200)

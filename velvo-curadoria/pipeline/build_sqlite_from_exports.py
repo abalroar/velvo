@@ -11,8 +11,8 @@ na sua máquina, onde o leiloes.sqlite real existe, NÃO precisa rodar isto.
 
 uso:
   python pipeline/build_sqlite_from_exports.py \
-      --intel /home/user/baratex/leiloes-intel \
-      --out  /home/user/baratex/leiloes-intel/data/leiloes.sqlite
+      --intel ../leiloes-intel \
+      --out  ../leiloes-intel/data/leiloes.sqlite
 """
 from __future__ import annotations
 
@@ -23,6 +23,9 @@ import os
 import sqlite3
 import sys
 from datetime import datetime
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_INTEL = os.path.abspath(os.path.join(HERE, "..", "..", "leiloes-intel"))
 
 
 def build_thumb_map(intel_dir: str) -> dict:
@@ -53,8 +56,8 @@ def build_thumb_map(intel_dir: str) -> dict:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--intel", default="/home/user/baratex/leiloes-intel")
-    ap.add_argument("--out", default="/home/user/baratex/leiloes-intel/data/leiloes.sqlite")
+    ap.add_argument("--intel", default=DEFAULT_INTEL)
+    ap.add_argument("--out", default=os.path.join(DEFAULT_INTEL, "data", "leiloes.sqlite"))
     args = ap.parse_args()
 
     import pyarrow.parquet as pq

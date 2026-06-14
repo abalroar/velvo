@@ -20,7 +20,7 @@ npm run dev                  # http://localhost:3000/studio
 
 ## deploy na vercel
 
-1. importe este diretório (`web/`) como projeto na vercel (root = `web`).
+1. importe o repo na vercel com root directory = `velvo-curadoria/web`.
 2. em project settings → environment variables, adicione:
 
    | nome | valor | escopo |

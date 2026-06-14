@@ -2,7 +2,7 @@
 
 uso típico (na máquina onde está o sqlite cheio):
   python pipeline/run_weekly.py \
-      --db /home/user/baratex/leiloes-intel/data/leiloes.sqlite \
+      --db ../leiloes-intel/data/leiloes.sqlite \
       --out supabase/seed_weekly.sql
 
 sem o sqlite, cai automaticamente no export slim (lots.parquet) + thumbnails do
@@ -16,6 +16,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+DEFAULT_INTEL = os.path.abspath(os.path.join(HERE, "..", "..", "leiloes-intel"))
 
 import candidates as C  # noqa: E402
 import weekly  # noqa: E402
@@ -25,7 +26,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", help="caminho do leiloes.sqlite (fonte preferida)")
     ap.add_argument("--parquet", help="fallback: lots.parquet")
-    ap.add_argument("--intel", default="/home/user/baratex/leiloes-intel",
+    ap.add_argument("--intel", default=DEFAULT_INTEL,
                     help="raiz do projeto leiloes-intel (cache + exports)")
     ap.add_argument("--out", default=os.path.join(HERE, "..", "supabase", "seed_weekly.sql"))
     ap.add_argument("--limit", type=int, default=600)
