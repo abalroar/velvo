@@ -1,11 +1,11 @@
-# cacarecos-curadoria
+# velvo
 
 pipeline semanal + mesa de curadoria da velvo. transforma o sqlite grande de
 leilões numa fila limpa de candidatos no supabase, e a curadora decide
 fica / talvez / passa de qualquer pc, pela url da vercel.
 
 ```
-cacarecos-curadoria/
+velvo/
   pipeline/
     run_weekly.py     gera a rodada e escreve um seed.sql idempotente
     push_weekly.py    envia a rodada direto ao supabase via api rest
@@ -50,12 +50,12 @@ cacarecos-curadoria/
 ## entrega — as 7 respostas
 
 ### 1. onde está o script semanal
-`cacarecos-curadoria/pipeline/run_weekly.py` (gera o seed) e
-`cacarecos-curadoria/pipeline/push_weekly.py` (envia direto ao supabase).
+`velvo/pipeline/run_weekly.py` (gera o seed) e
+`velvo/pipeline/push_weekly.py` (envia direto ao supabase).
 
 ### 2. onde está o seed.sql
-`cacarecos-curadoria/supabase/seed_weekly.sql` (a rodada).
-o schema fica em `cacarecos-curadoria/supabase/schema.sql`.
+`velvo/supabase/seed_weekly.sql` (a rodada).
+o schema fica em `velvo/supabase/schema.sql`.
 
 ### 3. quantos candidatos entraram na rodada
 **600 candidatos** no `batch_id 2026-w24` — todos com foto (cloudfront), link do
@@ -73,7 +73,7 @@ ficaram os 600 de maior score).
 na máquina onde está o sqlite grande:
 
 ```bash
-cd cacarecos-curadoria
+cd velvo
 pip install -r pipeline/requirements.txt   # uma vez
 
 # a) gerar o seed.sql e colar no supabase
