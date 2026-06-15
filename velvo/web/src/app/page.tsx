@@ -9,7 +9,9 @@ export default function Home() {
       <div className="notice">
         <p>mesa de curadoria interna.</p>
         <p>
-          a fila e as decisões ficam em <Link href="/studio">/studio</Link>.
+          a fila e as decisões ficam em <Link href="/studio">/studio</Link> —
+          rodada curada (vibe antonio): vidro, murano, esculturas e centros de mesa
+          garimpados dos leilões abertos.
         </p>
       </div>
     </div>

@@ -34,9 +34,11 @@ async function postDecision(p: Pending): Promise<boolean> {
 export default function CuratorBoard({
   initialFeed,
   batchId,
+  demo = false,
 }: {
   initialFeed: Candidate[];
   batchId: string | null;
+  demo?: boolean;
 }) {
   const [feed] = useState<Candidate[]>(initialFeed);
   const [i, setI] = useState(0);
@@ -136,6 +138,7 @@ export default function CuratorBoard({
       <div className="topbar">
         <span className="brand">velvo · studio</span>
         <span className="counter">
+          {demo && <span className="chip chip--pri" style={{ marginRight: 8 }}>demonstração · dados locais</span>}
           {i + 1} / {feed.length} · faltam {remaining}
         </span>
       </div>

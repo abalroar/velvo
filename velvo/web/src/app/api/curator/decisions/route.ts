@@ -2,7 +2,7 @@
 // a service role key fica só aqui no servidor (vercel), nunca no browser.
 import { NextRequest, NextResponse } from "next/server";
 
-import { saveDecision, supabaseConfigured } from "@/lib/supabase";
+import { saveDecision } from "@/lib/supabase";
 import type { Decision } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -11,12 +11,6 @@ export const dynamic = "force-dynamic";
 const VALID: Decision[] = ["fica", "talvez", "passa"];
 
 export async function POST(req: NextRequest) {
-  if (!supabaseConfigured()) {
-    return NextResponse.json(
-      { ok: false, error: "supabase não configurado no servidor" },
-      { status: 503 },
-    );
-  }
   let body: any;
   try {
     body = await req.json();

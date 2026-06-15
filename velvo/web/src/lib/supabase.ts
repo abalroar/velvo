@@ -4,12 +4,21 @@
 import "server-only";
 
 import type { Candidate, Decision } from "./types";
+import seedFeed from "./seed-feed.json";
 
 const URL = process.env.SUPABASE_URL?.replace(/\/$/, "");
 const KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 export function supabaseConfigured(): boolean {
   return Boolean(URL && KEY);
+}
+
+// modo demonstração: sem supabase configurado, a mesa roda com a rodada curada
+// versionada em seed-feed.json (a mesma que o seed.sql escreveria no banco).
+// assim o /studio renderiza de verdade num clone limpo (ex.: preview na :8080),
+// sem nenhuma credencial externa. com as envs setadas, lê o supabase real.
+export function demoMode(): boolean {
+  return !supabaseConfigured();
 }
 
 function headers(extra: Record<string, string> = {}): Record<string, string> {
@@ -24,7 +33,7 @@ function headers(extra: Record<string, string> = {}): Record<string, string> {
 // fila da mesa: a view curation_feed já entrega a rodada mais recente,
 // só queued, sem os já decididos, ordenada por score desc, headroom desc.
 export async function fetchFeed(limit = 600): Promise<Candidate[]> {
-  if (!supabaseConfigured()) return [];
+  if (!supabaseConfigured()) return (seedFeed as Candidate[]).slice(0, limit);
   const res = await fetch(
     `${URL}/rest/v1/curation_feed?select=*&limit=${limit}`,
     { headers: headers(), cache: "no-store" },
@@ -43,7 +52,8 @@ export async function saveDecision(input: {
   decided_by?: string | null;
 }): Promise<void> {
   if (!supabaseConfigured()) {
-    throw new Error("supabase não configurado (faltam envs no servidor).");
+    // modo demonstração: aceita a decisão sem persistir (não há banco no preview).
+    return;
   }
   const res = await fetch(
     `${URL}/rest/v1/curator_decisions?on_conflict=candidate_id`,

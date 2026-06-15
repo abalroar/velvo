@@ -1,6 +1,6 @@
 // mesa de curadoria. server component: lê a fila do supabase server-side
 // (service role nunca chega ao browser) e entrega ao board client.
-import { fetchFeed, supabaseConfigured } from "@/lib/supabase";
+import { fetchFeed, demoMode } from "@/lib/supabase";
 import type { Candidate } from "@/lib/types";
 import CuratorBoard from "@/components/curator-board";
 
@@ -8,21 +8,6 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export default async function StudioPage() {
-  if (!supabaseConfigured()) {
-    return (
-      <div className="wrap">
-        <div className="topbar"><span className="brand">velvo · studio</span></div>
-        <div className="notice">
-          <p>supabase ainda não configurado neste servidor.</p>
-          <p>
-            defina <code>SUPABASE_URL</code> e <code>SUPABASE_SERVICE_ROLE_KEY</code> nas
-            variáveis de ambiente da vercel e recarregue.
-          </p>
-        </div>
-      </div>
-    );
-  }
-
   let feed: Candidate[] = [];
   let error: string | null = null;
   try {
@@ -41,5 +26,5 @@ export default async function StudioPage() {
   }
 
   const batch = feed[0]?.batch_id ?? null;
-  return <CuratorBoard initialFeed={feed} batchId={batch} />;
+  return <CuratorBoard initialFeed={feed} batchId={batch} demo={demoMode()} />;
 }
