@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import type { CSSProperties } from "react";
 
 import type { Candidate, Decision } from "@/lib/types";
 import { brl, endsLabel } from "@/lib/format";
@@ -31,14 +32,32 @@ async function postDecision(p: Pending): Promise<boolean> {
   }
 }
 
+function togStyle(on: boolean): CSSProperties {
+  return {
+    fontSize: 13,
+    padding: "4px 12px",
+    borderRadius: 999,
+    border: "1px solid var(--line)",
+    textDecoration: "none",
+    background: on ? "var(--accent)" : "transparent",
+    color: on ? "#fff" : "var(--muted)",
+  };
+}
+
 export default function CuratorBoard({
   initialFeed,
   batchId,
   demo = false,
+  view = "todos",
+  totalCount,
+  approvedCount,
 }: {
   initialFeed: Candidate[];
   batchId: string | null;
   demo?: boolean;
+  view?: "todos" | "aprovados";
+  totalCount?: number;
+  approvedCount?: number;
 }) {
   const [feed] = useState<Candidate[]>(initialFeed);
   const [i, setI] = useState(0);
@@ -143,6 +162,23 @@ export default function CuratorBoard({
         </span>
       </div>
 
+      <div style={{ display: "flex", gap: 8, margin: "0 0 14px" }}>
+        <a
+          data-keep-case
+          href="/studio"
+          style={togStyle(view === "todos")}
+        >
+          todos {totalCount ?? feed.length}
+        </a>
+        <a
+          data-keep-case
+          href="/studio?lista=aprovados"
+          style={togStyle(view === "aprovados")}
+        >
+          ★ aprovados {approvedCount ?? ""}
+        </a>
+      </div>
+
       <div className="card">
         {current.image_url ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -161,6 +197,9 @@ export default function CuratorBoard({
           </div>
 
           <div className="chips">
+            {current.payload?.approved && (
+              <span className="chip chip--pri">★ aprovado{current.payload?.tier ? ` · tier ${current.payload.tier}` : ""}</span>
+            )}
             {current.priority && <span className="chip chip--pri">prioridade {current.priority}</span>}
             <span className="chip">score {current.score}</span>
             {current.headroom != null && <span className="chip">folga {brl(current.headroom)}</span>}

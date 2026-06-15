@@ -19,6 +19,8 @@ export type CandidatePayload = {
   signal_reasons?: string | null;
   entry_reasons?: string[];
   risk_reasons?: string[];
+  approved?: boolean | null;
+  tier?: string | null;
 };
 
 export type Candidate = {

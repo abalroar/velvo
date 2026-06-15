@@ -7,7 +7,11 @@ import CuratorBoard from "@/components/curator-board";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
-export default async function StudioPage() {
+export default async function StudioPage({
+  searchParams,
+}: {
+  searchParams?: { lista?: string };
+}) {
   let feed: Candidate[] = [];
   let error: string | null = null;
   try {
@@ -25,6 +29,20 @@ export default async function StudioPage() {
     );
   }
 
-  const batch = feed[0]?.batch_id ?? null;
-  return <CuratorBoard initialFeed={feed} batchId={batch} demo={demoMode()} />;
+  const totalCount = feed.length;
+  const approvedCount = feed.filter((c) => c.payload?.approved).length;
+  const view = searchParams?.lista === "aprovados" ? "aprovados" : "todos";
+  const shown = view === "aprovados" ? feed.filter((c) => c.payload?.approved) : feed;
+
+  const batch = shown[0]?.batch_id ?? feed[0]?.batch_id ?? null;
+  return (
+    <CuratorBoard
+      initialFeed={shown}
+      batchId={batch}
+      demo={demoMode()}
+      view={view}
+      totalCount={totalCount}
+      approvedCount={approvedCount}
+    />
+  );
 }
