@@ -44,6 +44,22 @@ export async function fetchFeed(limit = 600): Promise<Candidate[]> {
   return (await res.json()) as Candidate[];
 }
 
+// a vitrine da loja: só as peças escolhidas ("fica"). em modo demonstração,
+// usa as marcadas como aprovadas no seed local.
+export async function fetchStorefront(limit = 600): Promise<Candidate[]> {
+  if (!supabaseConfigured()) {
+    return (seedFeed as Candidate[]).filter((c) => c.payload?.approved).slice(0, limit);
+  }
+  const res = await fetch(
+    `${URL}/rest/v1/curation_storefront?select=*&limit=${limit}`,
+    { headers: headers(), cache: "no-store" },
+  );
+  if (!res.ok) {
+    throw new Error(`supabase storefront ${res.status}: ${await res.text()}`);
+  }
+  return (await res.json()) as Candidate[];
+}
+
 // grava (ou atualiza) a decisão da curadora. upsert por candidate_id.
 export async function saveDecision(input: {
   candidate_id: string;

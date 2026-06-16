@@ -72,12 +72,33 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.01e
   padding: 18px 28px;
   display: flex; align-items: baseline; justify-content: space-between; gap: 24px;
 }
+.brandblock { display: flex; align-items: baseline; gap: 10px; }
 .wordmark {
   font-family: var(--serif);
   font-style: italic;
   font-size: 26px;
   letter-spacing: -0.02em;
   color: var(--ink);
+}
+.tagline {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* página sobre */
+.prose { max-width: 60ch; margin: 8px 0 40px; padding-bottom: 40px; }
+.prose p { font-size: 18px; line-height: 1.75; color: var(--ink-soft); margin: 0 0 26px; }
+.prose .pull {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 38px 0;
+  padding-left: 22px;
+  border-left: 2px solid var(--line-2);
 }
 .nav-links { display: flex; gap: 22px; align-items: baseline; }
 .nav-links a { font-size: 14px; color: var(--ink-soft); padding-bottom: 2px; border-bottom: 1px solid transparent; }

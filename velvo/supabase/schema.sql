@@ -82,6 +82,18 @@ where c.status = 'queued'
 order by c.score desc, c.headroom desc nulls last;
 
 -- ---------------------------------------------------------------------------
+-- a vitrine da loja: só as peças escolhidas ("fica"). é o que o cliente vê.
+-- cresce a cada decisão "fica" tomada na mesa /studio. "uma a uma".
+-- ---------------------------------------------------------------------------
+drop view if exists curation_storefront;
+create view curation_storefront as
+select c.*
+from curation_candidates c
+join curator_decisions d
+  on d.candidate_id = c.candidate_id and d.decision = 'fica'
+order by c.score desc nulls last, c.refreshed_at desc;
+
+-- ---------------------------------------------------------------------------
 -- rls: trancado. ninguém com a anon key lê/escreve direto.
 -- todo acesso da aplicação é server-side com a service role (que ignora rls).
 -- a curadora nunca fala direto com o supabase: passa pelas api routes da vercel.

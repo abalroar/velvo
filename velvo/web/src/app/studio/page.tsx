@@ -1,17 +1,14 @@
-// mesa de curadoria. server component: lê a fila do supabase server-side
-// (service role nunca chega ao browser) e entrega ao board client.
+// mesa de curadoria. avalia a fila de todos os leilões em andamento; cada
+// "fica" passa a constituir a vitrine. server component: lê a fila server-side.
 import { fetchFeed, demoMode } from "@/lib/supabase";
 import type { Candidate } from "@/lib/types";
+import SiteNav from "@/components/site-nav";
 import CuratorBoard from "@/components/curator-board";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
-export default async function StudioPage({
-  searchParams,
-}: {
-  searchParams?: { lista?: string };
-}) {
+export default async function StudioPage() {
   let feed: Candidate[] = [];
   let error: string | null = null;
   try {
@@ -22,27 +19,20 @@ export default async function StudioPage({
 
   if (error) {
     return (
-      <div className="wrap">
-        <div className="topbar"><span className="brand">velvo · studio</span></div>
-        <div className="notice"><p>{error}</p></div>
-      </div>
+      <>
+        <SiteNav active="studio" />
+        <div className="wrap">
+          <div className="notice"><p>{error}</p></div>
+        </div>
+      </>
     );
   }
 
-  const totalCount = feed.length;
-  const approvedCount = feed.filter((c) => c.payload?.approved).length;
-  const view = searchParams?.lista === "aprovados" ? "aprovados" : "todos";
-  const shown = view === "aprovados" ? feed.filter((c) => c.payload?.approved) : feed;
-
-  const batch = shown[0]?.batch_id ?? feed[0]?.batch_id ?? null;
+  const batch = feed[0]?.batch_id ?? null;
   return (
-    <CuratorBoard
-      initialFeed={shown}
-      batchId={batch}
-      demo={demoMode()}
-      view={view}
-      totalCount={totalCount}
-      approvedCount={approvedCount}
-    />
+    <>
+      <SiteNav active="studio" />
+      <CuratorBoard initialFeed={feed} batchId={batch} demo={demoMode()} />
+    </>
   );
 }
