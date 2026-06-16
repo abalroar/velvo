@@ -12,7 +12,7 @@ export default function Home() {
             o <em>garimpo</em> vira<br />vitrine.
           </h1>
           <p>
-            velvo seleciona objetos de vidro, murano, cristal, bronze, porcelana e prata em
+            garimpamos objetos de vidro, murano, cristal, bronze, porcelana e prata em
             leilões pelo brasil — peça a peça, pelo estado e pela forma. um olhar de galeria
             nórdica para o que o mercado ainda trata como lote.
           </p>

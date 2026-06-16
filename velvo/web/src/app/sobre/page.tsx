@@ -1,7 +1,7 @@
 import SiteNav from "@/components/site-nav";
 
 export const metadata = {
-  title: "sobre — velvo",
+  title: "sobre — uma.uma",
 };
 
 export default function SobrePage() {
@@ -9,34 +9,34 @@ export default function SobrePage() {
     <>
       <SiteNav active="sobre" />
       <main className="shell">
-        <header className="hero" style={{ borderBottom: 0, paddingBottom: 16 }}>
+        <header className="hero" style={{ borderBottom: 0, paddingBottom: 12 }}>
           <span className="label">sobre</span>
-          <h1>
-            gosto de coisas <em>bonitas</em> e bem-feitas.
-          </h1>
+          <h1>o tempo carrega quase tudo.</h1>
         </header>
+
+        <div className="lead">
+          <p>
+            a gente passa pelo mundo, enquanto objetos são amuletos do tempo: atravessam
+            décadas, intempéries, entre heranças e novas estórias.
+          </p>
+          <p>a gente presta atenção e se esforça pra enxergar: peça a peça. uma a uma.</p>
+        </div>
 
         <article className="prose">
           <p>
             passo o dia puxando fios entre coisas que não deviam se encontrar: um filósofo
             do acaso, um poeta que trocou os versos pela áfrica, uma música de igreja
-            eletrônica, uma série sobre uma funerária, um leilão de móveis numa terça à
-            noite. leio por prazer. gosto de saber quem desenhou a cadeira, de quando ela
-            é e por onde passou — e de contar isso.
-          </p>
-
-          <p>
-            a história é parte do valor, com peso maior quando a peça é cara e rara. parte
-            dela a gente constrói, e eu conto sabendo disso. o objeto aguenta o olhar de
-            perto, e é esse olhar que eu peço de quem compra.
+            eletrônica, um leilão de móveis numa terça à noite. gosto de saber quem
+            desenhou a cadeira, de quando ela é e por onde passou — e de contar isso. a
+            história é parte do valor, com peso maior quando a peça é cara e rara. parte
+            dela a gente constrói, e eu conto sabendo disso.
           </p>
 
           <p>
             desconfio de mim na mesma hora. quando tudo começa a parecer interligado,
             lembro que talvez eu só esteja reparando mais nesses assuntos ultimamente. a
-            dúvida é útil: me impede de comprar a própria narrativa antes de testá-la. a
-            velvo é, por ora, uma hipótese — testada com calma, peça a peça, com gente em
-            quem confio.
+            dúvida me impede de comprar a própria narrativa antes de testá-la. isto é, por
+            ora, uma hipótese — testada com calma, peça a peça, com gente em quem confio.
           </p>
 
           <p>
@@ -51,9 +51,9 @@ export default function SobrePage() {
           </blockquote>
 
           <p>
-            então é isto: poucas peças, escolhidas a dedo, vendidas pela forma, pelo estado
-            e pela história. entrego o que eu mesmo gosto de sentir — a impressão de que o
-            objeto tem uma boa história por trás. e tem.
+            poucas peças, escolhidas a dedo, vendidas pela forma, pelo estado e pela
+            estória. entrego o que eu mesmo gosto de sentir — a impressão de que o objeto
+            tem uma boa história por trás. e tem.
           </p>
         </article>
       </main>

@@ -1,5 +1,5 @@
 /* ============================================================================
-   velvo — sistema visual
+   uma.uma — sistema visual
    referência: galerias nórdicas de design vintage (modernity, jacksons, noak
    room) + facetas de marketplace (pamono, selency). serifa editorial fraunces
    para títulos; grotesca inter para interface; paleta de galeria quente; muito
@@ -88,6 +88,15 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.01e
 }
 
 /* página sobre */
+.lead { max-width: 30ch; margin: 6px 0 40px; }
+.lead p {
+  font-family: var(--serif);
+  font-size: clamp(22px, 3.4vw, 30px);
+  line-height: 1.32;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 20px;
+}
 .prose { max-width: 60ch; margin: 8px 0 40px; padding-bottom: 40px; }
 .prose p { font-size: 18px; line-height: 1.75; color: var(--ink-soft); margin: 0 0 26px; }
 .prose .pull {

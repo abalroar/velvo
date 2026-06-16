@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "velvo — objetos garimpados",
+  title: "uma.uma — objetos garimpados",
   description:
     "curadoria de objetos e mobiliário vintage: vidro, murano, cristal, bronze, porcelana e prata, garimpados peça a peça.",
 };

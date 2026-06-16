@@ -23,6 +23,6 @@ export function middleware(req: NextRequest) {
   }
   return new NextResponse("acesso restrito", {
     status: 401,
-    headers: { "www-authenticate": 'Basic realm="velvo studio"' },
+    headers: { "www-authenticate": 'Basic realm="uma.uma studio"' },
   });
 }
