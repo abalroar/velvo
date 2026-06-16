@@ -64,8 +64,11 @@ create trigger trg_candidates_touch before update on curation_candidates
 -- ---------------------------------------------------------------------------
 -- a fila da mesa: rodada mais recente, queued, ainda não decidida,
 -- ordenada por score desc, headroom desc.
+-- drop antes do create: se já existir uma view com colunas diferentes,
+-- "create or replace" falha (42P16: cannot drop columns from view).
 -- ---------------------------------------------------------------------------
-create or replace view curation_feed as
+drop view if exists curation_feed;
+create view curation_feed as
 select c.*
 from curation_candidates c
 where c.status = 'queued'
