@@ -1,7 +1,7 @@
 import SiteNav from "@/components/site-nav";
 
 export const metadata = {
-  title: "sobre — uma.uma",
+  title: "sobre — velvo",
 };
 
 export default function SobrePage() {

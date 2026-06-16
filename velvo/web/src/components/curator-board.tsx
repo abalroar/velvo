@@ -111,7 +111,7 @@ export default function CuratorBoard({
   if (!feed.length) {
     return (
       <div className="wrap">
-        <div className="topbar"><span className="brand">uma.uma · studio</span></div>
+        <div className="topbar"><span className="brand">velvo · studio</span></div>
         <div className="empty">
           <h1>fila vazia</h1>
           <p>nenhum candidato pendente na rodada {batchId ?? "atual"}.</p>
@@ -123,7 +123,7 @@ export default function CuratorBoard({
   if (!current) {
     return (
       <div className="wrap">
-        <div className="topbar"><span className="brand">uma.uma · studio</span></div>
+        <div className="topbar"><span className="brand">velvo · studio</span></div>
         <div className="empty">
           <h1>fim da fila</h1>
           <p>você passou pelas {feed.length} peças da rodada {batchId}.</p>
@@ -136,7 +136,7 @@ export default function CuratorBoard({
   return (
     <div className="wrap">
       <div className="topbar">
-        <span className="brand">uma.uma · studio</span>
+        <span className="brand">velvo · studio</span>
         <span className="counter">
           {demo && <span className="chip chip--pri" style={{ marginRight: 8 }}>demonstração · dados locais</span>}
           {i + 1} / {feed.length} · faltam {remaining}
