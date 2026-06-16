@@ -12,46 +12,48 @@ export default function SobrePage() {
         <header className="hero" style={{ borderBottom: 0, paddingBottom: 16 }}>
           <span className="label">sobre</span>
           <h1>
-            o tempo gasta quase tudo. <em>quase.</em>
+            gosto de coisas <em>bonitas</em> e bem-feitas.
           </h1>
         </header>
 
         <article className="prose">
           <p>
-            a gente passa pelo mundo como visitante. o tempo desfaz cidades, modas,
-            rotinas — e a maior parte do que a gente jura conhecer. mas alguns objetos
-            atravessam décadas inteiras: um vidro soprado, um bronze, uma porcelana que
-            sobreviveu a mudanças, heranças e esquecimentos. é atrás desses sobreviventes
-            que a velvo existe.
+            passo o dia puxando fios entre coisas que não deviam se encontrar: um filósofo
+            do acaso, um poeta que trocou os versos pela áfrica, uma música de igreja
+            eletrônica, uma série sobre uma funerária, um leilão de móveis numa terça à
+            noite. leio por prazer. gosto de saber quem desenhou a cadeira, de quando ela
+            é e por onde passou — e de contar isso.
           </p>
 
           <p>
-            curar é só uma forma de prestar atenção. olhar duas vezes onde o mercado vê um
-            lote — e enxergar um objeto: com estado, com forma, com uma história que ele
-            carrega sem precisar contar. a gente garimpa em leilões pelo brasil e devolve
-            essas peças como o que elas sempre foram — coisas para usar, admirar ou
-            simplesmente ter.
-          </p>
-
-          <blockquote className="pull">uma a uma. é assim que a gente escolhe.</blockquote>
-
-          <p>
-            não trabalhamos com volume. cada peça é escolhida uma a uma — por isso a
-            vitrine é curta e muda devagar. ela é feita de decisões, não de estoque. o que
-            não passa pela mesa não chega até você.
+            a história é parte do valor, com peso maior quando a peça é cara e rara. parte
+            dela a gente constrói, e eu conto sabendo disso. o objeto aguenta o olhar de
+            perto, e é esse olhar que eu peço de quem compra.
           </p>
 
           <p>
-            todo objeto bom carrega uma pergunta sobre espaço: onde ele cabe? numa casa,
-            numa mesa, numa vida que já está cheia. a gente prefere as peças que respondem
-            isso sozinhas — que chegam e parecem ter estado ali o tempo todo.
+            desconfio de mim na mesma hora. quando tudo começa a parecer interligado,
+            lembro que talvez eu só esteja reparando mais nesses assuntos ultimamente. a
+            dúvida é útil: me impede de comprar a própria narrativa antes de testá-la. a
+            velvo é, por ora, uma hipótese — testada com calma, peça a peça, com gente em
+            quem confio.
           </p>
 
           <p>
-            a aposta é simples, quase teimosa: a tecnologia muda, as modas passam, mas o
-            desejo por beleza escassa não. o formato de uma boa cadeira não envelhece.
-            enquanto isso for verdade, vale a pena escolher devagar — e deixar que a
-            estética seja a parte do mundo que insiste em durar.
+            a aposta tem pé no chão. estética é um dos poucos mercados pouco sujeitos a
+            virar obsoletos: o corpo humano não muda de formato tão cedo, e quem tem
+            dinheiro e gosto segue querendo coisas belas e escassas — para sentar, usar,
+            admirar ou ter.
+          </p>
+
+          <blockquote className="pull">
+            “servir a deus e ao dinheiro.” é mais ou menos isso que eu tento equilibrar.
+          </blockquote>
+
+          <p>
+            então é isto: poucas peças, escolhidas a dedo, vendidas pela forma, pelo estado
+            e pela história. entrego o que eu mesmo gosto de sentir — a impressão de que o
+            objeto tem uma boa história por trás. e tem.
           </p>
         </article>
       </main>
