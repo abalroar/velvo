@@ -1,19 +1,27 @@
 import Link from "next/link";
+import SiteNav from "@/components/site-nav";
 
 export default function Home() {
   return (
-    <div className="wrap">
-      <div className="topbar">
-        <span className="brand">velvo</span>
-      </div>
-      <div className="notice">
-        <p>mesa de curadoria interna.</p>
-        <p>
-          a fila e as decisões ficam em <Link href="/studio">/studio</Link> —
-          rodada curada (vibe antonio): vidro, murano, esculturas e centros de mesa
-          garimpados dos leilões abertos.
-        </p>
-      </div>
-    </div>
+    <>
+      <SiteNav active={null} />
+      <main className="shell">
+        <section className="hero" style={{ borderBottom: 0 }}>
+          <span className="label">curadoria de objetos & mobiliário vintage</span>
+          <h1>
+            o <em>garimpo</em> vira<br />vitrine.
+          </h1>
+          <p>
+            velvo seleciona objetos de vidro, murano, cristal, bronze, porcelana e prata em
+            leilões pelo brasil — peça a peça, pelo estado e pela forma. um olhar de galeria
+            nórdica para o que o mercado ainda trata como lote.
+          </p>
+          <p style={{ marginTop: 30, display: "flex", gap: 18, flexWrap: "wrap" }}>
+            <Link href="/vitrine" className="cta">ver a vitrine →</Link>
+            <Link href="/studio" className="cta cta--ghost">mesa de curadoria</Link>
+          </p>
+        </section>
+      </main>
+    </>
   );
 }

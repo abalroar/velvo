@@ -19,8 +19,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Bruce Angeiras Leilões",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": 334.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -28,7 +33,6 @@
 "tier": "A",
 "entry_reasons": [
 "aprovado (tier A)",
-"gato em bronze · escultura limpa, pátina dourada",
 "bronze escult",
 "upside ~r$1389",
 "teto p/ dobrar r$112",
@@ -38,7 +42,7 @@
 "liquidez baixa"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rosanavaleleiloes-com-br-29865875",
@@ -60,8 +64,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Rosana Vale Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 378.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -69,7 +78,6 @@
 "tier": "A",
 "entry_reasons": [
 "aprovado (tier A)",
-"compoteira baccarat · cristal lapidado com tampa",
 "baccarat",
 "upside ~r$1051",
 "teto p/ dobrar r$236",
@@ -77,7 +85,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-29205816",
@@ -99,8 +107,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 109.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -108,7 +121,6 @@
 "tier": "A",
 "entry_reasons": [
 "aprovado (tier A)",
-"vaso vista alegre coral · acento de cor",
 "vista alegre",
 "upside ~r$328",
 "teto p/ dobrar r$15",
@@ -116,7 +128,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tallonileiloes-com-br-31196051",
@@ -138,8 +150,13 @@
 "payload": {
 "uf": null,
 "house_name": "Talloni Leilões",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": 61.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -147,7 +164,6 @@
 "tier": "B",
 "entry_reasons": [
 "aprovado (tier B)",
-"escultura latão + mármore · a mais \"antonio\" do lote",
 "bronze escult",
 "upside ~r$1116",
 "teto p/ dobrar r$112",
@@ -158,7 +174,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "estiloantigoleiloes-com-br-30966705",
@@ -180,8 +196,13 @@
 "payload": {
 "uf": null,
 "house_name": "Estilo Antigo Leilões",
+"material": "murano",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": "anos 50",
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -16.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -189,7 +210,6 @@
 "tier": "B",
 "entry_reasons": [
 "aprovado (tier B)",
-"solifleur murano cobalto anos 50 · hero visual",
 "opalina",
 "upside ~r$318",
 "teto p/ dobrar r$24",
@@ -199,7 +219,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-29577144",
@@ -221,8 +241,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 2700,
+"price_band": "R$ 2.500 +",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 900.0,
+"est_resale_base": 900,
 "est_gross_profit": 687.0,
 "max_bid_40pct": 324.0,
 "signal": "CURADA_VISUAL",
@@ -238,7 +263,7 @@
 "liquidez baixa"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31001243",
@@ -260,8 +285,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 2520,
+"price_band": "R$ 2.500 +",
+"era": "anos 60",
 "size_class": "peq/med",
-"est_resale_base": 909.0,
+"est_resale_base": 909,
 "est_gross_profit": 452.0,
 "max_bid_40pct": 328.0,
 "signal": "CURADA_VISUAL",
@@ -275,7 +305,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leiloeslemos-com-br-31162617",
@@ -297,8 +327,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leilões Lemos",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 2700,
+"price_band": "R$ 2.500 +",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 900.0,
+"est_resale_base": 900,
 "est_gross_profit": 454.0,
 "max_bid_40pct": 324.0,
 "signal": "CURADA_VISUAL",
@@ -314,7 +349,7 @@
 "liquidez baixa"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-31142026",
@@ -336,8 +371,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "cristal & vidro",
+"size_label": "médio",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 504.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -351,7 +391,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31180985",
@@ -373,8 +413,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 478.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -388,7 +433,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-31033362",
@@ -410,8 +455,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "bronze",
+"size_label": "pequeno",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": 261.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -427,7 +477,7 @@
 "liquidez baixa"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163820",
@@ -449,8 +499,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": 208.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -467,7 +522,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31030236",
@@ -489,8 +544,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 2700,
+"price_band": "R$ 2.500 +",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 900.0,
+"est_resale_base": 900,
 "est_gross_profit": -218.0,
 "max_bid_40pct": 324.0,
 "signal": "CURADA_VISUAL",
@@ -507,7 +567,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063699",
@@ -529,8 +589,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1719,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 648.0,
+"est_resale_base": 648,
 "est_gross_profit": 223.0,
 "max_bid_40pct": 147.0,
 "signal": "CURADA_VISUAL",
@@ -547,7 +612,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064250",
@@ -569,8 +634,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1719,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 648.0,
+"est_resale_base": 648,
 "est_gross_profit": 223.0,
 "max_bid_40pct": 147.0,
 "signal": "CURADA_VISUAL",
@@ -587,7 +657,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063668",
@@ -609,8 +679,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": 103.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -627,7 +702,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30996180",
@@ -649,8 +724,13 @@
 "payload": {
 "uf": null,
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1719,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 648.0,
+"est_resale_base": 648,
 "est_gross_profit": 139.0,
 "max_bid_40pct": 147.0,
 "signal": "CURADA_VISUAL",
@@ -667,7 +747,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024800",
@@ -689,8 +769,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 262.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -706,7 +791,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31003533",
@@ -728,8 +813,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 252.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -745,7 +835,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-30944433",
@@ -767,8 +857,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 792,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 468.0,
+"est_resale_base": 468,
 "est_gross_profit": 278.0,
 "max_bid_40pct": 118.0,
 "signal": "CURADA_VISUAL",
@@ -782,7 +877,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leiloeslemos-com-br-31201957",
@@ -804,8 +899,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leilões Lemos",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 1184,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 522.0,
+"est_resale_base": 522,
 "est_gross_profit": 207.0,
 "max_bid_40pct": 144.0,
 "signal": "CURADA_VISUAL",
@@ -821,7 +921,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024799",
@@ -843,8 +943,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 220.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -860,7 +965,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176565",
@@ -882,8 +987,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -54.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -900,7 +1010,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31003527",
@@ -922,8 +1032,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 178.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -939,7 +1054,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "oficinacenarioleiloes-com-br-30850756",
@@ -961,8 +1076,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Oficina Cenário Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 157.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -978,7 +1098,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "anamelloleiloeira-com-br-31132924",
@@ -1000,8 +1120,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ana Mello Leiloeira",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 136.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -1017,7 +1142,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024911",
@@ -1039,8 +1164,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 136.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -1056,7 +1186,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31001272",
@@ -1078,8 +1208,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 87.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -1095,7 +1230,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024916",
@@ -1117,8 +1252,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 31.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -1134,7 +1274,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024855",
@@ -1156,8 +1296,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": 31.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -1173,7 +1318,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063776",
@@ -1195,8 +1340,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 1184,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 522.0,
+"est_resale_base": 522,
 "est_gross_profit": 60.0,
 "max_bid_40pct": 144.0,
 "signal": "CURADA_VISUAL",
@@ -1212,7 +1362,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "jotamleiloes-com-br-30909257",
@@ -1234,8 +1384,13 @@
 "payload": {
 "uf": null,
 "house_name": "Imperial JM Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1251,7 +1406,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134926",
@@ -1273,8 +1428,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1290,7 +1450,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134923",
@@ -1312,8 +1472,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1329,7 +1494,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134922",
@@ -1351,8 +1516,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1368,7 +1538,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134920",
@@ -1390,8 +1560,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1407,7 +1582,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134919",
@@ -1429,8 +1604,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1446,7 +1626,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134918",
@@ -1468,8 +1648,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1485,7 +1670,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134917",
@@ -1507,8 +1692,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1524,7 +1714,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134916",
@@ -1546,8 +1736,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1563,7 +1758,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134915",
@@ -1585,8 +1780,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 110.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1602,7 +1802,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024798",
@@ -1624,8 +1824,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -21.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -1641,7 +1846,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31072908",
@@ -1663,8 +1868,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 66.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -1680,7 +1890,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31100666",
@@ -1702,8 +1912,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 61.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -1719,7 +1934,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134921",
@@ -1741,8 +1956,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 99.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1758,7 +1978,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "miltrekosleiloes-com-br-31134914",
@@ -1780,8 +2000,13 @@
 "payload": {
 "uf": null,
 "house_name": "Miltrekos Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 99.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1797,7 +2022,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-29409195",
@@ -1819,8 +2044,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 112.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -1834,7 +2064,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-31147174",
@@ -1856,8 +2086,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 89.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1873,7 +2108,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-31146851",
@@ -1895,8 +2130,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 89.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1912,7 +2152,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-31146810",
@@ -1934,8 +2174,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 89.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -1951,7 +2196,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-29205823",
@@ -1973,8 +2218,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 109.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -1988,7 +2238,7 @@
 ],
 "risk_reasons": []
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063230",
@@ -2010,8 +2260,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -74.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -2027,7 +2282,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024796",
@@ -2049,8 +2304,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -74.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -2066,7 +2326,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marthapadilhaleiloeira-lel-br-31036149",
@@ -2088,8 +2348,13 @@
 "payload": {
 "uf": null,
 "house_name": "Martha Isolda Padilha Leiloeira",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 45.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2105,7 +2370,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-30971227",
@@ -2127,8 +2392,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 83.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -2144,7 +2414,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-30970976",
@@ -2166,8 +2436,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 83.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -2183,7 +2458,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31050812",
@@ -2205,8 +2480,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 103.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -2222,7 +2502,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casanostraleiloes-com-br-30970681",
@@ -2244,8 +2524,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Casa Nostra Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 103.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -2261,7 +2546,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31050862",
@@ -2283,8 +2568,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 103.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -2300,7 +2590,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rioarteleiloes-com-br-31107923",
@@ -2322,8 +2612,13 @@
 "payload": {
 "uf": null,
 "house_name": "Rio Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 34.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2339,7 +2634,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31100661",
@@ -2361,8 +2656,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 29.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2378,7 +2678,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31100659",
@@ -2400,8 +2700,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 29.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2417,7 +2722,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "anamelloleiloeira-com-br-30103178",
@@ -2439,8 +2744,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ana Mello Leiloeira",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 98.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -2456,7 +2766,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "mbantiguidades-com-br-31190337",
@@ -2478,8 +2788,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "MB Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 24.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2495,7 +2810,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tamiriscarvalholeiloeira-com-br-30253097",
@@ -2517,8 +2832,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Tamiris Carvalho Leiloeira",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 24.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2534,7 +2854,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31103985",
@@ -2556,8 +2876,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 93.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -2573,7 +2898,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31051357",
@@ -2595,8 +2920,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 93.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -2612,7 +2942,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31108405",
@@ -2634,8 +2964,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 18.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2651,7 +2986,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31088649",
@@ -2673,8 +3008,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 13.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2690,7 +3030,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31108407",
@@ -2712,8 +3052,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": 5.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2729,7 +3074,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31108401",
@@ -2751,8 +3096,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -3.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2768,7 +3118,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "cb-leiloeiro-com-br-31108399",
@@ -2790,8 +3140,13 @@
 "payload": {
 "uf": "ES",
 "house_name": "CB - Carvalho Borges Leiloeiro",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -3.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -2807,7 +3162,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31026535",
@@ -2829,8 +3184,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -2846,7 +3206,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31026517",
@@ -2868,8 +3228,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -2885,7 +3250,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024854",
@@ -2907,8 +3272,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -2924,7 +3294,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024853",
@@ -2946,8 +3316,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -2963,7 +3338,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024822",
@@ -2985,8 +3360,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -3002,7 +3382,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024821",
@@ -3024,8 +3404,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -3041,7 +3426,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024820",
@@ -3063,8 +3448,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -179.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -3080,7 +3470,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31026525",
@@ -3102,8 +3492,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 36.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -3119,7 +3514,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leilaomirianneto-com-br-31036531",
@@ -3141,8 +3536,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa de Leilões Mirian Neto",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 36.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -3158,7 +3558,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "estiloantigoleiloes-com-br-30970538",
@@ -3180,8 +3580,13 @@
 "payload": {
 "uf": null,
 "house_name": "Estilo Antigo Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": "art déco",
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 72.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -3197,7 +3602,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "estiloantigoleiloes-com-br-30967308",
@@ -3219,8 +3624,13 @@
 "payload": {
 "uf": null,
 "house_name": "Estilo Antigo Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": "art déco",
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 72.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -3236,7 +3646,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "estiloantigoleiloes-com-br-30967303",
@@ -3258,8 +3668,13 @@
 "payload": {
 "uf": null,
 "house_name": "Estilo Antigo Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": "art déco",
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 72.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -3275,7 +3690,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31130918",
@@ -3297,8 +3712,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -18.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3314,7 +3734,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "estiloantigoleiloes-com-br-30967313",
@@ -3336,8 +3756,13 @@
 "payload": {
 "uf": null,
 "house_name": "Estilo Antigo Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -18.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3353,7 +3778,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marthapadilhaleiloeira-lel-br-31036124",
@@ -3375,8 +3800,13 @@
 "payload": {
 "uf": null,
 "house_name": "Martha Isolda Padilha Leiloeira",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -18.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3392,7 +3822,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063552",
@@ -3414,8 +3844,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -34.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3431,7 +3866,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31072921",
@@ -3453,8 +3888,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -39.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3470,7 +3910,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063417",
@@ -3492,8 +3932,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -39.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3509,7 +3954,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176378",
@@ -3531,8 +3976,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -39.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3548,7 +3998,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "danielchaiebleiloeiro-com-br-31098946",
@@ -3570,8 +4020,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Daniel Chaieb - Leiloeiro Oficial",
+"material": "cristal & vidro",
+"size_label": "grande",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 8.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -3587,7 +4042,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31104001",
@@ -3609,8 +4064,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 51.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -3626,7 +4086,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-30571047",
@@ -3648,8 +4108,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 51.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -3665,7 +4130,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-29423251",
@@ -3687,8 +4152,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 49.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -3704,7 +4174,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rioarteleiloes-com-br-31107980",
@@ -3726,8 +4196,13 @@
 "payload": {
 "uf": null,
 "house_name": "Rio Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -60.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3743,7 +4218,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "ciclosleiloes-com-br-31112678",
@@ -3765,8 +4240,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Ciclos Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 504,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 38.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -3782,7 +4262,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31028049",
@@ -3804,8 +4284,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 504,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 36.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -3821,7 +4306,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-30875866",
@@ -3843,8 +4328,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -284.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -3860,7 +4350,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176363",
@@ -3882,8 +4372,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -81.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3899,7 +4394,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176913",
@@ -3921,8 +4416,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -81.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3938,7 +4438,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "jotamleiloes-com-br-31024186",
@@ -3960,8 +4460,13 @@
 "payload": {
 "uf": null,
 "house_name": "Imperial JM Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -81.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -3977,7 +4482,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marthapadilhaleiloeira-lel-br-31036123",
@@ -3999,8 +4504,13 @@
 "payload": {
 "uf": null,
 "house_name": "Martha Isolda Padilha Leiloeira",
+"material": "prata & metal",
+"size_label": "grande",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -81.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4016,7 +4526,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leiloeslemos-com-br-31198829",
@@ -4038,8 +4548,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leilões Lemos",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 30.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -4055,7 +4570,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "br-ernanileiloeiro-com-br-29393361",
@@ -4077,8 +4592,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ernani Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 28.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -4094,7 +4614,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tamiriscarvalholeiloeira-com-br-30254223",
@@ -4116,8 +4636,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Tamiris Carvalho Leiloeira",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -92.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4133,7 +4658,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30177295",
@@ -4155,8 +4680,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -92.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4172,7 +4702,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vmescritarteleiloes-com-br-31093299",
@@ -4194,8 +4724,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "VM Escritório de Arte",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 19.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -4211,7 +4746,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "santayana-com-br-31214720",
@@ -4233,8 +4768,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Santayana Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": 19.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -4250,7 +4790,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176620",
@@ -4272,8 +4812,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -102.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4289,7 +4834,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176346",
@@ -4311,8 +4856,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -102.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4328,7 +4878,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176260",
@@ -4350,8 +4900,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -102.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4367,7 +4922,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176850",
@@ -4389,8 +4944,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -102.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4406,7 +4966,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31202998",
@@ -4428,8 +4988,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -102.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4445,7 +5010,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "jotamleiloes-com-br-31024164",
@@ -4467,8 +5032,13 @@
 "payload": {
 "uf": null,
 "house_name": "Imperial JM Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -102.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4484,7 +5054,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "jotamleiloes-com-br-31076184",
@@ -4506,8 +5076,13 @@
 "payload": {
 "uf": null,
 "house_name": "Imperial JM Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -40.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -4523,7 +5098,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leiloeslemos-com-br-31160863",
@@ -4545,8 +5120,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leilões Lemos",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 504,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": 15.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -4562,7 +5142,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-30944578",
@@ -4584,8 +5164,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -1.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -4601,7 +5186,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rosanavaleleiloes-com-br-30188755",
@@ -4623,8 +5208,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Rosana Vale Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 792,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 468.0,
+"est_resale_base": 468,
 "est_gross_profit": -53.0,
 "max_bid_40pct": 118.0,
 "signal": "CURADA_VISUAL",
@@ -4640,7 +5230,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-30884068",
@@ -4662,8 +5252,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -2.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -4679,7 +5274,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063575",
@@ -4701,8 +5296,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -2.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -4718,7 +5318,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-31033028",
@@ -4740,8 +5340,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -7.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -4757,7 +5362,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063049",
@@ -4779,8 +5384,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -134.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4796,7 +5406,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176971",
@@ -4818,8 +5428,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -134.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4835,7 +5450,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176962",
@@ -4857,8 +5472,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -134.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4874,7 +5494,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30996161",
@@ -4896,8 +5516,13 @@
 "payload": {
 "uf": null,
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -144.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4913,7 +5538,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tamiriscarvalholeiloeira-com-br-30252927",
@@ -4935,8 +5560,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Tamiris Carvalho Leiloeira",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -155.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -4952,7 +5582,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-31033288",
@@ -4974,8 +5604,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -22.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -4991,7 +5626,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rioarteleiloes-com-br-31107283",
@@ -5013,8 +5648,13 @@
 "payload": {
 "uf": null,
 "house_name": "Rio Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -165.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5030,7 +5670,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "paulaoantiguidades-com-br-31103867",
@@ -5052,8 +5692,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Leilões Paulão antiguidades",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -183.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -5069,7 +5714,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tamiriscarvalholeiloeira-com-br-30252177",
@@ -5091,8 +5736,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Tamiris Carvalho Leiloeira",
+"material": "prata & metal",
+"size_label": "grande",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -205.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5108,7 +5758,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31026529",
@@ -5130,8 +5780,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -121.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -5147,7 +5802,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "delonleiloes-com-br-30939457",
@@ -5169,8 +5824,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Delon Leilões",
+"material": "cristal & vidro",
+"size_label": "médio",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -129.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -5186,7 +5846,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vapordaarte-com-br-31154736",
@@ -5208,8 +5868,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Vapor da Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -291.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5225,7 +5890,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120012",
@@ -5247,8 +5912,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -312.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5264,7 +5934,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "anamelloleiloeira-com-br-30103010",
@@ -5286,8 +5956,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Ana Mello Leiloeira",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 504,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -90.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -5303,7 +5978,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120122",
@@ -5325,8 +6000,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -354.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5342,7 +6022,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rosanavaleleiloes-com-br-29880152",
@@ -5364,8 +6044,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Rosana Vale Leilões",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": "art déco",
 "size_class": "medio",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -145.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -5381,7 +6066,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120365",
@@ -5403,8 +6088,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -365.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5420,7 +6110,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "santayana-com-br-30909794",
@@ -5442,8 +6132,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Santayana Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -438.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5459,7 +6154,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vmescritarteleiloes-com-br-31074617",
@@ -5481,8 +6176,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "VM Escritório de Arte",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -470.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5498,7 +6198,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "ciclosleiloes-com-br-31191405",
@@ -5520,8 +6220,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Ciclos Leilões",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -259.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -5537,7 +6242,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tamiriscarvalholeiloeira-com-br-30252916",
@@ -5559,8 +6264,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Tamiris Carvalho Leiloeira",
+"material": "prata & metal",
+"size_label": "grande",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -554.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5576,7 +6286,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vmescritarteleiloes-com-br-31088240",
@@ -5598,8 +6308,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "VM Escritório de Arte",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -680.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5615,7 +6330,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120009",
@@ -5637,8 +6352,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -732.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5654,7 +6374,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "danielchaiebleiloeiro-com-br-31098863",
@@ -5676,8 +6396,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Daniel Chaieb - Leiloeiro Oficial",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -506.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -5693,7 +6418,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120072",
@@ -5715,8 +6440,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -837.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5732,7 +6462,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "tamiriscarvalholeiloeira-com-br-30253426",
@@ -5754,8 +6484,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Tamiris Carvalho Leiloeira",
+"material": "prata & metal",
+"size_label": "grande",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -890.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5771,7 +6506,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31130465",
@@ -5793,8 +6528,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -921.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5810,7 +6550,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "bruceangeirasleiloeiro-com-br-31203646",
@@ -5832,8 +6572,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Bruce Angeiras Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -942.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5849,7 +6594,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vapordaarte-com-br-31154802",
@@ -5871,8 +6616,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Vapor da Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1047.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5888,7 +6638,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120042",
@@ -5910,8 +6660,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1089.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -5927,7 +6682,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120254",
@@ -5949,8 +6704,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -1334.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -5966,7 +6726,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120253",
@@ -5988,8 +6748,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -1334.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -6005,7 +6770,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vmescritarteleiloes-com-br-31091307",
@@ -6027,8 +6792,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "VM Escritório de Arte",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -926.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -6044,7 +6814,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120367",
@@ -6066,8 +6836,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1205.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6083,7 +6858,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31130534",
@@ -6105,8 +6880,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1212.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -6122,7 +6902,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vapordaarte-com-br-31161897",
@@ -6144,8 +6924,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Vapor da Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1257.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6161,7 +6946,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31003545",
@@ -6183,8 +6968,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -1754.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -6200,7 +6990,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120366",
@@ -6222,8 +7012,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1572.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6239,7 +7034,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120135",
@@ -6261,8 +7056,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -1965.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -6278,7 +7078,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31125950",
@@ -6300,8 +7100,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -2202.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6317,7 +7122,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rosanavaleleiloes-com-br-30188788",
@@ -6339,8 +7144,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Rosana Vale Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -2517.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6356,7 +7166,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vmescritarteleiloes-com-br-31077586",
@@ -6378,8 +7188,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "VM Escritório de Arte",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -2682.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -6395,7 +7210,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31030237",
@@ -6417,8 +7232,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 2700,
+"price_band": "R$ 2.500 +",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 900.0,
+"est_resale_base": 900,
 "est_gross_profit": -3998.0,
 "max_bid_40pct": 324.0,
 "signal": "CURADA_VISUAL",
@@ -6435,7 +7255,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31026520",
@@ -6457,8 +7277,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -3119.0,
 "max_bid_40pct": 236.0,
 "signal": "CURADA_VISUAL",
@@ -6474,7 +7299,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "antiguitati-com-br-31030238",
@@ -6496,8 +7321,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Antiguitati Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -3042.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6513,7 +7343,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vapordaarte-com-br-31161793",
@@ -6535,8 +7365,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Vapor da Arte Leilões",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -8877.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -6552,7 +7387,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120522",
@@ -6574,8 +7409,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "cristal & vidro",
+"size_label": "médio",
+"price_sale": 1440,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 716.0,
+"est_resale_base": 716,
 "est_gross_profit": -12104.0,
 "max_bid_40pct": 179.0,
 "signal": "CURADA_VISUAL",
@@ -6591,7 +7431,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "santayana-com-br-30909877",
@@ -6613,8 +7453,13 @@
 "payload": {
 "uf": "RS",
 "house_name": "Santayana Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -13857.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6630,7 +7475,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vapordaarte-com-br-31154766",
@@ -6652,8 +7497,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Vapor da Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -14067.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6669,7 +7519,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "vapordaarte-com-br-31198612",
@@ -6691,8 +7541,13 @@
 "payload": {
 "uf": "SP",
 "house_name": "Vapor da Arte Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -18792.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6708,7 +7563,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "marirodriguesleiloeira-com-br-31120360",
@@ -6730,8 +7585,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "Marilaine Rodrigues - Leiloeira Pública",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -23525.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -6747,7 +7607,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176891",
@@ -6769,8 +7629,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -176.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6786,7 +7651,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176385",
@@ -6808,8 +7673,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -186.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6825,7 +7695,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176680",
@@ -6847,8 +7717,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -197.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6864,7 +7739,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176864",
@@ -6886,8 +7761,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -207.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6903,7 +7783,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176736",
@@ -6925,8 +7805,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -207.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6942,7 +7827,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176483",
@@ -6964,8 +7849,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -207.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -6981,7 +7871,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176322",
@@ -7003,8 +7893,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -207.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7020,7 +7915,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063569",
@@ -7042,8 +7937,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -228.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7059,7 +7959,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176451",
@@ -7081,8 +7981,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -260.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7098,7 +8003,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30177102",
@@ -7120,8 +8025,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -302.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7137,7 +8047,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30177110",
@@ -7159,8 +8069,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -85.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -7176,7 +8091,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176302",
@@ -7198,8 +8113,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -75.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -7215,7 +8135,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30177039",
@@ -7237,8 +8157,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -96.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -7254,7 +8179,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064062",
@@ -7276,8 +8201,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -96.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -7293,7 +8223,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064040",
@@ -7315,8 +8245,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -333.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7332,7 +8267,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063701",
@@ -7354,8 +8289,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -407.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7371,7 +8311,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064147",
@@ -7393,8 +8333,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -417.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7410,7 +8355,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064065",
@@ -7432,8 +8377,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -417.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7449,7 +8399,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176884",
@@ -7471,8 +8421,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "bronze",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -222.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -7488,7 +8443,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063430",
@@ -7510,8 +8465,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -470.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7527,7 +8487,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064260",
@@ -7549,8 +8509,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -470.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7566,7 +8531,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063732",
@@ -7588,8 +8553,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -575.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7605,7 +8575,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31063482",
@@ -7627,8 +8597,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -558.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -7644,7 +8619,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30176782",
@@ -7666,8 +8641,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -921.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7683,7 +8663,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-31064004",
@@ -7705,8 +8685,13 @@
 "payload": {
 "uf": "RJ",
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1572.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7722,7 +8707,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "prochicleiloes-com-br-30971079",
@@ -7744,8 +8729,13 @@
 "payload": {
 "uf": null,
 "house_name": "Pró Chic Leilões",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -228.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7761,7 +8751,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leocolecoes-com-br-31128979",
@@ -7783,8 +8773,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leo Antiguidade e coleções",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -40.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -7800,7 +8795,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-30909637",
@@ -7822,8 +8817,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -33.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -7839,7 +8839,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-30876545",
@@ -7861,8 +8861,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "bronze",
+"size_label": "grande",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -64.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -7878,7 +8883,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30996471",
@@ -7900,8 +8905,13 @@
 "payload": {
 "uf": null,
 "house_name": "RR DECO Antiguidades",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -174.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -7917,7 +8927,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leiloeslemos-com-br-31201618",
@@ -7939,8 +8949,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leilões Lemos",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -65.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -7956,7 +8971,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "velhavelharialeiloes-com-br-31165503",
@@ -7978,8 +8993,13 @@
 "payload": {
 "uf": null,
 "house_name": "Velha Velharia Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -299.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -7995,7 +9015,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "jotamleiloes-com-br-30234203",
@@ -8017,8 +9037,13 @@
 "payload": {
 "uf": null,
 "house_name": "Imperial JM Leilões",
+"material": "bronze",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -85.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -8034,7 +9059,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31010519",
@@ -8056,8 +9081,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -312.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8073,7 +9103,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163538",
@@ -8095,8 +9125,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -312.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8112,7 +9147,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "aureaantiguidades-com-br-30123826",
@@ -8134,8 +9169,13 @@
 "payload": {
 "uf": null,
 "house_name": "Áurea Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": "art déco",
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -312.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8151,7 +9191,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rioarteleiloes-com-br-31124520",
@@ -8173,8 +9213,13 @@
 "payload": {
 "uf": null,
 "house_name": "Rio Arte Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 488,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -86.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -8190,7 +9235,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30996032",
@@ -8212,8 +9257,13 @@
 "payload": {
 "uf": null,
 "house_name": "RR DECO Antiguidades",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 486,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 252.0,
+"est_resale_base": 252,
 "est_gross_profit": -86.0,
 "max_bid_40pct": 15.0,
 "signal": "CURADA_VISUAL",
@@ -8229,7 +9279,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30996496",
@@ -8251,8 +9301,13 @@
 "payload": {
 "uf": null,
 "house_name": "RR DECO Antiguidades",
+"material": "murano",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -127.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -8268,7 +9323,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163763",
@@ -8290,8 +9345,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 585,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 342.0,
+"est_resale_base": 342,
 "est_gross_profit": -159.0,
 "max_bid_40pct": 58.0,
 "signal": "CURADA_VISUAL",
@@ -8307,7 +9367,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "raildacosta-com-br-31113491",
@@ -8329,8 +9389,13 @@
 "payload": {
 "uf": null,
 "house_name": "Railda Costa - Leiloeira Oficial",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -396.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8346,7 +9411,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31154225",
@@ -8368,8 +9433,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -999.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -8386,7 +9456,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "jotamleiloes-com-br-30234190",
@@ -8408,8 +9478,13 @@
 "payload": {
 "uf": null,
 "house_name": "Imperial JM Leilões",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -208.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -8425,7 +9500,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "rrdeco-com-br-30995687",
@@ -8447,8 +9522,13 @@
 "payload": {
 "uf": null,
 "house_name": "RR DECO Antiguidades",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -438.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8464,7 +9544,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31129510",
@@ -8486,8 +9566,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "murano",
+"size_label": "pequeno",
+"price_sale": 576,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -279.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -8504,7 +9589,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31202441",
@@ -8526,8 +9611,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -1209.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -8544,7 +9634,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31129490",
@@ -8566,8 +9656,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "cristal & vidro",
+"size_label": "pequeno",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -699.0,
 "max_bid_40pct": 24.0,
 "signal": "CURADA_VISUAL",
@@ -8583,7 +9678,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163546",
@@ -8605,8 +9700,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -837.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8622,7 +9722,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "raildacosta-com-br-31113392",
@@ -8644,8 +9744,13 @@
 "payload": {
 "uf": null,
 "house_name": "Railda Costa - Leiloeira Oficial",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -628.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -8661,7 +9766,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024872",
@@ -8683,8 +9788,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 585,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 342.0,
+"est_resale_base": 342,
 "est_gross_profit": -632.0,
 "max_bid_40pct": 58.0,
 "signal": "CURADA_VISUAL",
@@ -8700,7 +9810,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31203024",
@@ -8722,8 +9832,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -942.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8739,7 +9854,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "leiloesrbraga-com-br-30959219",
@@ -8761,8 +9876,13 @@
 "payload": {
 "uf": null,
 "house_name": "Leilões Braga",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 414,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 162.0,
+"est_resale_base": 162,
 "est_gross_profit": -747.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -8778,7 +9898,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024818",
@@ -8800,8 +9920,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 585,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 342.0,
+"est_resale_base": 342,
 "est_gross_profit": -1052.0,
 "max_bid_40pct": 58.0,
 "signal": "CURADA_VISUAL",
@@ -8817,7 +9942,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31204187",
@@ -8839,8 +9964,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "porcelana & cerâmica",
+"size_label": "pequeno",
+"price_sale": 1184,
+"price_band": "R$ 800 – 1.500",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 522.0,
+"est_resale_base": 522,
 "est_gross_profit": -1567.0,
 "max_bid_40pct": 144.0,
 "signal": "CURADA_VISUAL",
@@ -8856,7 +9986,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163532",
@@ -8878,8 +10008,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1467.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8895,7 +10030,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163392",
@@ -8917,8 +10052,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1467.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8934,7 +10074,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163247",
@@ -8956,8 +10096,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -1467.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -8973,7 +10118,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163437",
@@ -8995,8 +10140,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -2517.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -9012,7 +10162,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "wattenleiloes-com-br-31024859",
@@ -9034,8 +10184,13 @@
 "payload": {
 "uf": null,
 "house_name": "Watten Leilões",
+"material": "cristal & vidro",
+"size_label": "médio",
+"price_sale": 630,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 270.0,
+"est_resale_base": 270,
 "est_gross_profit": -2544.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -9051,7 +10206,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163771",
@@ -9073,8 +10228,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": "art déco",
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -4359.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -9091,7 +10251,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31196597",
@@ -9113,8 +10273,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -4884.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -9131,7 +10296,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31201756",
@@ -9153,8 +10318,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -18534.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -9171,7 +10341,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "casaamarelaleiloes-net-br-31154532",
@@ -9193,8 +10363,13 @@
 "payload": {
 "uf": null,
 "house_name": "Casa Amarela Leilões de Arte",
+"material": "bronze",
+"size_label": "médio",
+"price_sale": 1710,
+"price_band": "R$ 1.500 – 2.500",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 576.0,
+"est_resale_base": 576,
 "est_gross_profit": -18534.0,
 "max_bid_40pct": 112.0,
 "signal": "CURADA_VISUAL",
@@ -9211,7 +10386,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31163952",
@@ -9233,8 +10408,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "médio",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "medio",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -33552.0,
 "max_bid_40pct": 0.0,
 "signal": "CURADA_VISUAL",
@@ -9250,7 +10430,7 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 },
 {
 "candidate_id": "shoppingdosantiquarios-lel-br-31164083",
@@ -9272,8 +10452,13 @@
 "payload": {
 "uf": null,
 "house_name": "Shopping dos Antiquários",
+"material": "prata & metal",
+"size_label": "pequeno",
+"price_sale": 720,
+"price_band": "até R$ 800",
+"era": null,
 "size_class": "peq/med",
-"est_resale_base": 234.0,
+"est_resale_base": 234,
 "est_gross_profit": -78642.0,
 "max_bid_40pct": 7.0,
 "signal": "CURADA_VISUAL",
@@ -9289,6 +10474,6 @@
 "acima do teto p/ dobrar"
 ]
 },
-"refreshed_at": "2026-06-15T22:40:46Z"
+"refreshed_at": "2026-06-16T00:06:59Z"
 }
 ]
