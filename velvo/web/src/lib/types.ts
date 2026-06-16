@@ -19,6 +19,13 @@ export type CandidatePayload = {
   signal_reasons?: string | null;
   entry_reasons?: string[];
   risk_reasons?: string[];
+  approved?: boolean | null;
+  tier?: string | null;
+  material?: string | null;
+  size_label?: string | null;
+  price_sale?: number | null;
+  price_band?: string | null;
+  era?: string | null;
 };
 
 export type Candidate = {
