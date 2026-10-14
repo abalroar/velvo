@@ -15,7 +15,11 @@ Funciona com qualquer TV Android TV / Google TV: usa o mesmo protocolo do app Go
 
 ## Instalar
 
-**Opção 1 — baixar pronto.** Em *Actions › philips-tv-menubar*, abra a execução mais recente e baixe o artefato `PhilipsTV-Menubar` (zip). Descompacte, mova para Aplicativos e, na primeira vez, clique com o botão direito › **Abrir** (o app não é notarizado pela Apple).
+**Opção 1 — baixar pronto.** Em *Actions › philips-tv-menubar*, abra a execução mais recente e baixe o artefato `PhilipsTV-Menubar` (zip). Descompacte e mova para Aplicativos. O app não é notarizado pela Apple, então o macOS bloqueia a primeira abertura: tente abrir, depois vá em Ajustes do Sistema › Privacidade e Segurança › **Abrir Mesmo Assim**. Alternativa no Terminal:
+
+```sh
+xattr -dr com.apple.quarantine "/Applications/PhilipsTV Menubar.app"
+```
 
 **Opção 2 — compilar.** Requer macOS 14+ e Xcode Command Line Tools (`xcode-select --install`).
 
