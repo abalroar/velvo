@@ -1,0 +1,23 @@
+name: philips-tv-menubar
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift --version
+      - name: Build universal app
+        run: bash scripts/build.sh --universal
+      - name: Self-check and pairing against simulated TV
+        run: bash scripts/integration-test.sh
+      - name: Zip app
+        run: ditto -c -k --keepParent "dist/PhilipsTV Menubar.app" dist/PhilipsTV-Menubar.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PhilipsTV-Menubar
+          path: dist/PhilipsTV-Menubar.zip
