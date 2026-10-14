@@ -41,6 +41,7 @@ enum PairingStage: Equatable {
     private let discovery = TVDiscovery()
     private var volumeTarget: Int?
     private var sessionToken = UUID()
+    private var reportsForegroundApp = false
 
     init() {
         host = defaults.string(forKey: "host") ?? ""
@@ -82,6 +83,7 @@ enum PairingStage: Equatable {
         reconnectTask?.cancel()
         session?.close()
         phase = .connecting
+        reportsForegroundApp = false
         let host = host
         let token = UUID()
         sessionToken = token
@@ -155,6 +157,7 @@ enum PairingStage: Equatable {
         case .configured(let info): device = info
         case .power(let on): isOn = on
         case .foregroundApp(let package):
+            reportsForegroundApp = true
             foregroundPackage = package
             textFieldFocused = false
         case .volume(let state):
@@ -191,8 +194,16 @@ enum PairingStage: Equatable {
 
     func launch(_ app: TVApp) {
         guard let session, isConnected else { return }
-        session.launch(app.id)
+        session.launch(app.link ?? app.id)
         notice = "Abrindo \(app.name)…"
+        // A deep link may not be handled by this TV or app version. If the TV reports foreground
+        // apps and this one did not come up, try the package launch as well.
+        guard app.link != nil, reportsForegroundApp else { return }
+        let token = sessionToken
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) { [weak self] in
+            guard let self, self.sessionToken == token, self.foregroundPackage != app.id, let session = self.session else { return }
+            session.launch(app.id)
+        }
     }
 
     func sendText(_ text: String) {

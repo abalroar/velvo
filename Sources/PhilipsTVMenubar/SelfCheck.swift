@@ -60,6 +60,11 @@ enum SelfCheck {
         check("DER long length") { DER.tlv(0x04, [UInt8](repeating: 0, count: 300)).prefix(4) == [0x04, 0x82, 0x01, 0x2c] }
         check("self-signed certificate") { certificateCheck() }
 
+        check("app catalog") {
+            let ids = AppCatalog.builtIn.map(\.id)
+            return Set(ids).count == ids.count && AppCatalog.builtIn.allSatisfy { $0.link?.contains("://") ?? true }
+                && AppCatalog.defaultFavorites.allSatisfy { ids.contains($0) }
+        }
         check("key names") { KeyCode(name: "KEYCODE_HOME") == .home && KeyCode(name: "5") == .digit5 && KeyCode(name: "tv_input_hdmi_2") == .hdmi2 }
         check("MAC parsing") { WakeOnLAN.macBytes("aa-bb-cc-dd-ee-0f") == [0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0x0f] && WakeOnLAN.macBytes("aa:bb") == nil }
 
